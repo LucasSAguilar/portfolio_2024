@@ -6,10 +6,10 @@ const MenuNavegacao = () => {
             <h1 className="logo-navbar">Lucas. <p className="texto-destaque"> dev</p></h1>
 
             <ul className="lista-btn-nav">
-                <li>HOME</li>
-                <li>SOBRE MIM</li>
-                <li>PROJETOS</li>
-                <li>CONTATO</li>
+                <li className="botoes-menu-navegacao">HOME</li>
+                <li className="botoes-menu-navegacao">SOBRE MIM</li>
+                <li className="botoes-menu-navegacao">PROJETOS</li>
+                <li className="botoes-menu-navegacao">CONTATO</li>
             </ul>
 
             <div className="box-btn-cv">

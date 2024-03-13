@@ -1,5 +1,33 @@
 .section-home {
     height: 100%;
     width: 100%;
-    background-color: aqua;
+}
+
+.posicionamento-home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.nome-apresentacao-home{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.titulo-apresentacao-home{
+    font-size: 4rem;
+}
+
+.areas-atuacao-apresentacao-home{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+
+.tecnologias-usadas-home {
+    
 }
