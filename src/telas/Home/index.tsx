@@ -4,7 +4,6 @@ import "./styles.css"
 
 const Home = () => {
     return (
-        <Tela >
             <div className="posicionamento-home">
                 <div className="apresentacao-home">
                     <h3 className="nome-apresentacao-home">Lucas Aguilar</h3>
@@ -19,7 +18,6 @@ const Home = () => {
                     <Tecnologias />
                 </div>
             </div>
-        </Tela>
     );
 }
 

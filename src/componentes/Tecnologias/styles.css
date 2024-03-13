@@ -1,151 +1,19 @@
-.glass-techs {
-    border: 1px solid #610F0F;
-    height: 200px;
-    width: 500px;
-    background-color: #ffffff10;
-    box-shadow: -5px 1px 5px 1px #00000015;
-    backdrop-filter: blur(0.1px);
-    z-index: -1;
+.tech-box {
+    border: 1px solid #D05353;
+    box-shadow: 0px 0px 15px 5px #610F0F;
+    border-radius: 10px;
+    animation: moveUpDown 2s infinite alternate;
 }
 
-.opaco-glass {
-    backdrop-filter: blur(2.5px);
-    z-index: 2;
-    height: 100px;
-    width: 500px;
-    background-color: #00000023;
+.tech-box:hover {
+    animation: none;
 }
 
-.techs-item {
-    position: relative;
-}
-
-.bottom-techs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: end;
-}
-
-.descricao-tech-base {
-    margin-top: 10px;
-    text-align: center;
-    width: 70%;
-    opacity: 0;
-    transition: 1s;
-}
-
-.segurador {
-    height: 100%;
-    width: 50px;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-}
-
-.segurador-left {
-    left: 15px;
-}
-
-.segurador-right {
-    right: 15px;
-}
-
-.segurador>div {
-    width: 100%;
-}
-
-.segurador>.f1-tech,
-.segurador>.f4-tech {
-    background-color: rgba(52, 52, 52, 1);
-    height: 30%;
-}
-
-.segurador>.f2-tech {
-    height: 10%;
-    background-image: linear-gradient(180deg, rgb(46, 46, 46), rgb(71, 71, 71));
-}
-
-.segurador>.f3-tech {
-    height: 10%;
-    background-image: linear-gradient(0deg, rgb(46, 46, 46, 1), rgba(71, 71, 71, 1));
-}
-
-
-.segurador>.fmeio-tech {
-    background-color: #404040;
-    height: 20%;
-}
-
-.segurador>.parafuso-tech {
-    background-color: #111111;
-    height: 20px;
-    width: 20px;
-    border-radius: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.parafuso-top {
-    top: 5px;
-}
-
-.parafuso-bottom {
-    bottom: 5px;
-}
-
-
-/* ICONES DAS LINGUAGENS -------------- */
-
-.imagens-linguagem-home {
-    width: 35px;
-    position: absolute;
-    z-index: 1;
-    top: 10px;
-    left: 100px;
-    transition: 4s;
-    cursor: pointer;
-}
-
-
-.linguagem-selecionada {
-    animation: selecionarLinguagem 1s forwards, moverLingaugem 3s forwards 1.5s linear;
-    filter: blur(2px);
-}
-
-
-@keyframes selecionarLinguagem {
-
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
     100% {
-        scale: 0.7;
+        transform: translateY(20px); /* ajuste a distância conforme necessário */
     }
-}
-@keyframes moverLingaugem {
-
-    40% {
-        top: 120%;
-        left: 100px
-    }
-
-    100% {
-        top: 120%;
-        left: 90%;
-    }
-
-}
-
-
-/* Efeitos do glass */
-
-.glass-green {
-    transition: 1s;
-    border: 2px solid #9cca96;
-    box-shadow: 0px 0px 10px 5px #186128;
-}
-
-
-.descricao-tech {
-    opacity: 1;
 }
