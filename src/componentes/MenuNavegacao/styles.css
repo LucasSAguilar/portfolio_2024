@@ -49,6 +49,8 @@
 .btn-cv {
     background-color: rgba(97, 15, 15, 0.06);
     border: 1px solid #610F0F;
+    width: 60%;
+    text-align: center;
     height: 80%;
     padding: 10px 15px;
     cursor: pointer;

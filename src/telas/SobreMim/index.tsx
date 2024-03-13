@@ -1,8 +1,9 @@
-import Tela from "../../componentes/Tela";
 import "./styles.css"
 
 const SobreMim = () => {
-    return <div className="teste"></div>;
+    return <div className="section-sobremim">
+        Sobre mim
+    </div>;
 }
 
 export default SobreMim;

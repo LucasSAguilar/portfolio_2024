@@ -9,7 +9,7 @@ const Tecnologias = () => {
 
     return <div className="tech-box">
 
-        <img src={lucas} />
+        <img src={lucas} className="image-lucas"/>
 
     </div>
 }
