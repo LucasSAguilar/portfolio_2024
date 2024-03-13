@@ -1,15 +1,14 @@
-import React from 'react';
-import Tela from './componentes/Tela';
-import Navbar from './componentes/MenuNavegacao';
+
 import "./reset.css"
+import Navbar from './componentes/MenuNavegacao';
+import Home from './telas/Home';
 
 function App() {
   return (
     <>
 
-      <Tela>
       <Navbar />
-      </Tela>
+      <Home />
     </>
   );
 }

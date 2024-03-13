@@ -5,6 +5,8 @@
 }
 
 .navbar-box {
+    position: absolute;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -65,4 +67,5 @@ li:hover {
 
 .btn-cv:hover {
     background-color: #610F0F;
+    color: #FFFFFF;
 }

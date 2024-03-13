@@ -1,4 +1,3 @@
-import Navbar from "../MenuNavegacao";
 import "./styles.css";
 
 import { ReactElement } from "react";
