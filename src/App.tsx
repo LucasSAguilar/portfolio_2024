@@ -8,6 +8,7 @@ import Tela from "./componentes/Tela";
 import { useRef } from "react";
 import Projetos from "./telas/Projetos";
 import Contato from "./telas/Contato";
+import Realizacoes from "./componentes/Realizacoes";
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
         <div ref={homeRef}>
           <Home />
         </div>
+        <Realizacoes />
         <div ref={sobreRef}>
           <SobreMim />
         </div>
