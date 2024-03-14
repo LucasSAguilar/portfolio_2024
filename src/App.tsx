@@ -9,6 +9,7 @@ import { useRef } from "react";
 import Projetos from "./telas/Projetos";
 import Contato from "./telas/Contato";
 import Realizacoes from "./componentes/Realizacoes";
+import Footer from "./componentes/Footer";
 
 function App() {
   const homeRef = useRef<HTMLDivElement>(null);
@@ -54,7 +55,7 @@ function App() {
         <div ref={projetosRef}>
           <Projetos />
         </div>
-          <div className="divisao-sections"/>
+          <div className="glass-effect divisao-sections"/>
         <div ref={sobreRef}>
           <SobreMim />
         </div>
@@ -62,6 +63,7 @@ function App() {
         <div ref={contatoRef}>
           <Contato />
         </div>
+        <Footer />
       </>
     </Tela>
   );

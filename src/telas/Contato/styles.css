@@ -1,4 +1,56 @@
 .section-contato {
     width: 100vw;
     height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 60%;
+    padding: 15px;
+    color: #000000;
+}
+
+.form-email > input {
+    width: 100%;
+    padding: 5px;
+    color: #000000;
+    font-size: 1.1rem;
+
+}
+
+.form-email > label {
+    margin-top: 20px;
+
+}
+
+.form-email > textarea {
+    height: 30%;
+    resize: none;
+    padding: 5px;
+    color: #000000;
+    font-size: 1.1rem;
+
+}
+
+.form-btn-enviar{
+    margin-top: 10px;
+    height: 40px;
+    background: none;
+    background-color: #1C0505;
+    border: 1px solid #1C0505;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.form-btn-enviar:hover {
+    background-color: #5f0909;
 }
