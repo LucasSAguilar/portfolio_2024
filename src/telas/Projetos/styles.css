@@ -16,7 +16,8 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 60%;
+    min-height: 350px;
+    height: 500px;
 }
 
 .box-posicionar-btn{
@@ -39,4 +40,11 @@
 .btn-mais-projetos:hover {
     background-color: #610F0F;
     color: #FFFFFF;
+}
+
+
+@media screen and (max-height: 1000px) {
+    .box-cards-projeto {
+        height: 300px;
+    }
 }

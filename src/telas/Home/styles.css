@@ -1,5 +1,3 @@
-
-
 .posicionamento-home {
     height: 100vh;
     display: flex;
@@ -24,6 +22,6 @@
 }
 
 
-.tecnologias-usadas-home {
-    
+.texto-destaque {
+    font-size: 4rem;
 }
