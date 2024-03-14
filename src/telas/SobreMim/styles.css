@@ -1,4 +1,74 @@
 .section-sobremim {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
+    display: flex;
+    padding-right: 2%;
+}
+
+.div-perfil {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-lucas-desenho {
+    background-image: radial-gradient(rgb(29, 3, 3) 50%, rgb(107, 11, 11));
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+}
+
+.box-icons-rs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+
+}
+
+.icons-rs {
+    cursor: pointer;
+} 
+
+.icons-rs:hover{
+    filter: drop-shadow(0px 0px 4px red);
+
+}
+
+
+.div-dados {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-page-sobremim{
+    color: #FF0000;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.texto-apresentacao {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.title-instituicoes {
+    font-size: 2rem;
+    margin: 40px 0;
+}
+
+.box-img-instituicoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagens-instituicoes {
+    width: 100px;
 }

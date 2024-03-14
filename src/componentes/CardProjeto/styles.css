@@ -34,5 +34,16 @@
     margin-top: 15px;
     display: flex   ;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.icon-github, .icon-site, .icon-video {
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.icon-github:hover, .icon-site:hover, .icon-video:hover{
+    filter: drop-shadow(0px 0px 4px red);
+
 }
