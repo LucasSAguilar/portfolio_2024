@@ -1,8 +1,8 @@
-
-import "./reset.css"
-import "./global_styles.css"
-import Navbar from './componentes/MenuNavegacao';
-import Home from './telas/Home';
+import "./reset.css";
+import "./global_styles.css";
+import "./app_style.css";
+import Navbar from "./componentes/MenuNavegacao";
+import Home from "./telas/Home";
 import SobreMim from "./telas/SobreMim";
 import Tela from "./componentes/Tela";
 import { useRef } from "react";
@@ -11,39 +11,42 @@ import Contato from "./telas/Contato";
 import Realizacoes from "./componentes/Realizacoes";
 
 function App() {
-
-  const homeRef = useRef<HTMLDivElement>(null)
-  const sobreRef = useRef<HTMLDivElement>(null)
-  const projetosRef = useRef<HTMLDivElement>(null)
-  const contatoRef = useRef<HTMLDivElement>(null)
+  const homeRef = useRef<HTMLDivElement>(null);
+  const sobreRef = useRef<HTMLDivElement>(null);
+  const projetosRef = useRef<HTMLDivElement>(null);
+  const contatoRef = useRef<HTMLDivElement>(null);
 
   const scrollToHome = () => {
     if (homeRef.current) {
-      homeRef.current.scrollIntoView({ behavior: 'smooth' });
+      homeRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
   const scrollToSobre = () => {
     if (sobreRef.current) {
       console.log("aqui");
-      sobreRef.current.scrollIntoView({ behavior: 'smooth' });
+      sobreRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
   const scrollToProjetos = () => {
     if (projetosRef.current) {
-      projetosRef.current.scrollIntoView({ behavior: 'smooth' });
+      projetosRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
   const scrollToContato = () => {
     if (contatoRef.current) {
-      contatoRef.current.scrollIntoView({ behavior: 'smooth' });
+      contatoRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
-
 
   return (
     <Tela>
       <>
-        <Navbar onClickContato={() => scrollToContato()} onClickHome={() => scrollToHome()} onClickProjetos={() => scrollToProjetos()} onClickSobre={() => scrollToSobre()} />
+        <Navbar
+          onClickContato={() => scrollToContato()}
+          onClickHome={() => scrollToHome()}
+          onClickProjetos={() => scrollToProjetos()}
+          onClickSobre={() => scrollToSobre()}
+        />
         <div ref={homeRef}>
           <Home />
         </div>
@@ -51,6 +54,7 @@ function App() {
         <div ref={projetosRef}>
           <Projetos />
         </div>
+          <div className="divisao-sections"/>
         <div ref={sobreRef}>
           <SobreMim />
         </div>
