@@ -12,7 +12,7 @@ const MenuNavegacao = ({ onClickHome, onClickSobre, onClickProjetos, onClickCont
 
     return (
         <div className="navbar-box glass-effect">
-            <h1 className="logo-navbar">Lucas. <p className="texto-destaque"> dev</p></h1>
+            <h1 className="logo-navbar">Lucas. <p className="texto-destaque-navbar"> dev</p></h1>
 
             <ul className="lista-btn-nav">
                 <li className="botoes-menu-navegacao" onClick={onClickHome}>HOME</li>

@@ -60,8 +60,9 @@
 
 }
 
-.texto-destaque {
+.texto-destaque-navbar {
     color: #FF0000;
+    font-size: 2rem;
 }
 
 .btn-cv:hover {

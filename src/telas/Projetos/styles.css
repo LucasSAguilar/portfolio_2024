@@ -15,9 +15,9 @@
 .box-cards-projeto {
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    min-height: 350px;
     height: 500px;
+    min-height: 350px;
+    justify-content: space-around;
 }
 
 .box-posicionar-btn{
@@ -43,7 +43,7 @@
 }
 
 
-@media screen and (max-height: 1000px) {
+@media screen and (max-height: 850px) {
     .box-cards-projeto {
         height: 300px;
     }
