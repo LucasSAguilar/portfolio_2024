@@ -53,19 +53,19 @@ const SobreMim = () => {
             className="imagens-instituicoes"
           />
           <img
-            alt="Imagem da instituição Senac"
+            alt="Imagem da instituição Estacio"
             src={estacio}
             className="imagens-instituicoes"
           />
           <img
-            alt="Imagem da instituição Senac"
+            alt="Imagem da instituição Alura"
             src={alura}
             className="imagens-instituicoes"
           />
           <img
-            alt="Imagem da instituição Senac"
+            alt="Imagem da instituição da UB"
             src={ub}
-            className="imagens-instituicoes"
+            className="imagens-instituicoes imagem-ub"
           />
         </div>
       </div>

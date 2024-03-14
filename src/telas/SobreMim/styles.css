@@ -72,3 +72,33 @@
 .imagens-instituicoes {
     width: 100px;
 }
+
+.imagem-ub{
+    height: 70px;
+}
+
+
+@media screen and (max-height: 620px) {
+    .texto-apresentacao {
+        font-size: 1.3rem
+    }
+    .title-page-sobremim{
+        font-size: 1.5rem;
+    }
+    .title-instituicoes {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+
+    .img-lucas-desenho {
+        width: 250px;
+    }
+    .icons-rs {
+        width: 35px;
+    } 
+    .box-icons-rs {
+        width: 250px;
+    
+    }
+
+}
