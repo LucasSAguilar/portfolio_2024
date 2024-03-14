@@ -16,8 +16,8 @@ const MenuNavegacao = ({ onClickHome, onClickSobre, onClickProjetos, onClickCont
 
             <ul className="lista-btn-nav">
                 <li className="botoes-menu-navegacao" onClick={onClickHome}>HOME</li>
-                <li className="botoes-menu-navegacao" onClick={onClickSobre}>SOBRE MIM</li>
                 <li className="botoes-menu-navegacao" onClick={onClickProjetos}>PROJETOS</li>
+                <li className="botoes-menu-navegacao" onClick={onClickSobre}>SOBRE MIM</li>
                 <li className="botoes-menu-navegacao" onClick={onClickContato}>CONTATO</li>
             </ul>
 

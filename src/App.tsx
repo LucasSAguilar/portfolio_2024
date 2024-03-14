@@ -48,12 +48,13 @@ function App() {
           <Home />
         </div>
         <Realizacoes />
-        <div ref={sobreRef}>
-          <SobreMim />
-        </div>
         <div ref={projetosRef}>
           <Projetos />
         </div>
+        <div ref={sobreRef}>
+          <SobreMim />
+        </div>
+
         <div ref={contatoRef}>
           <Contato />
         </div>
