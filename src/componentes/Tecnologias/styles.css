@@ -1,9 +1,4 @@
-.tech-box {
-    border: 1px solid #D05353;
-    box-shadow: 0px 0px 15px 5px #610F0F;
-    border-radius: 30px;
-    background-image: radial-gradient(rgba(34, 7, 7, 0.9), rgba(0, 0, 0, 0.71));
-}
+
 
 .tech-box:hover {
     animation: none;

@@ -1,4 +1,3 @@
-import "./reset.css";
 import "./global_styles.css";
 import "./app_style.css";
 import Navbar from "./componentes/MenuNavegacao";

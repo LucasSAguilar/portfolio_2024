@@ -9,7 +9,7 @@
     height: 20%;
     font-size: 3rem;
     text-align: center;
-    padding-top: 2%;
+    padding-top: 5%;
 }
 
 .box-cards-projeto {
@@ -29,7 +29,7 @@
 
 .btn-mais-projetos{
     border: 1px solid #610F0F;
-    padding: 20px;
+    padding: 12px 20px;
     width: 300px;
     color: #FF0000;
     background-color: rgba(255, 0, 0, 0.04);
