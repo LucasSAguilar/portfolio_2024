@@ -12,6 +12,13 @@
     z-index: 10;
 }
 
+
+.escurecer-navbar {
+    backdrop-filter: blur(40px);
+    background-color: #000000ef;
+}
+
+
 .logo-navbar {
     font-size: 2rem;
     width: 20%;
@@ -31,7 +38,6 @@
 
 .lista-btn-nav {
     display: flex;
-    color: #FFFFFF;
     height: 100%;
     width: 40%;
     justify-content: space-around;
@@ -50,6 +56,7 @@
     background-color: rgba(97, 15, 15, 0.06);
     border: 1px solid #610F0F;
     width: 60%;
+    min-width: 110px;
     text-align: center;
     height: 80%;
     padding: 10px 15px;
@@ -68,4 +75,81 @@
 .btn-cv:hover {
     background-color: #610F0F;
     color: #FFFFFF;
+}
+
+.icone_hamburguer {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+
+    .lista-btn-nav {
+        display: none;
+    }
+    .btn-cv {
+        display: none;
+    }
+
+    .icone_hamburguer {
+        display: block;
+        width: 20px;
+        color: #FFFFFF;
+    }
+}
+
+/*
+    -==========================================
+*/
+
+
+.menu-hamburguer {
+    display: none;
+    z-index: 100;
+    position: fixed;
+    top: 6%;
+    background-color: #000000ef;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    backdrop-filter: blur(40px);
+}
+
+.lista-burguer{
+    margin-top: 20%;
+}
+
+.botoes-menu-burguer{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff50;
+}
+
+
+.btn-burguer-home{
+    border-top: 1px solid #ffffff50;
+}
+
+.btn-cv-burguer {
+    background-color: rgba(97, 15, 15, 0.06);
+    border: 1px solid #610F0F;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #FF0000;
+    position: absolute;
+    bottom: 70px;
+}
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+}
+
+.exibir-menu {
+    display: flex;
 }
