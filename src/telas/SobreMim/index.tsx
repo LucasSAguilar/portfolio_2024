@@ -19,30 +19,29 @@ const SobreMim = () => {
           className="img-lucas-desenho"
         />
         <div className="box-icons-rs">
-            <img alt="icone linkedin" src={linkedin} className="icons-rs"/>
-            <img alt="icone github" src={github} className="icons-rs"/>
-            <img alt="icone x" src={x} className="icons-rs"/>
-            <img alt="icone instagram" src={instagram} className="icons-rs"/>
+          <img alt="icone linkedin" src={linkedin} className="icons-rs" />
+          <img alt="icone github" src={github} className="icons-rs" />
+          <img alt="icone x" src={x} className="icons-rs" />
+          <img alt="icone instagram" src={instagram} className="icons-rs" />
         </div>
       </div>
 
       <div className="div-dados">
         <h3 className="title-page-sobremim">Quem sou?</h3>
-        <p className="texto-apresentacao">
-          Sou um desenvolvedor fullstack com sólida experiência na criação de
-          sistemas abrangendo desde a arquitetura de servidores até a
-          implementação da interface visual. Com mais de dois anos de
-          experiência no setor, trago consigo um histórico comprovado de entrega
-          de soluções tecnológicas eficazes e inovadoras.
-        </p>
-        <p className="texto-apresentacao">
-          Minha paixão pela tecnologia e pelo desenvolvimento de software
-          impulsiona-me a buscar constantemente a excelência em cada projeto que
-          assumo. Estou entusiasmado para aplicar meu conjunto diversificado de
-          habilidades e conhecimentos em novos desafios e colaborar com
-          profissionais igualmente apaixonados pela criação de soluções digitais
-          de classe mundial.
-        </p>
+        <div className="texto-apresentacao">
+          <p>
+            Sou um desenvolvedor fullstack com sólida experiência na criação de
+            sistemas abrangendo desde a arquitetura de servidores até a
+            implementação da interface visual. Com mais de dois anos de
+            experiência no setor, trago consigo um histórico comprovado de
+            entrega de soluções tecnológicas eficazes e inovadoras.
+          </p>
+          <p>
+            Minha paixão pela tecnologia e pelo desenvolvimento de software
+            impulsiona-me a buscar constantemente a excelência em cada projeto
+            que assumo.
+          </p>
+        </div>
         <h4 className="title-instituicoes">
           Instituições de ensino que fiz parte
         </h4>
