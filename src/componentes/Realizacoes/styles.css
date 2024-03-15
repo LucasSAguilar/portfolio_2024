@@ -15,11 +15,12 @@
 
 .box-valores>h3 {
     font-size: 4rem;
+    text-align: center;
 }
 
 .box-valores>p {
     font-size: 1.5rem;
-
+    text-align: center;
 }
 
 .box-valores {
@@ -29,4 +30,30 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .box-valores>h3 {
+        font-size: 3.3rem;
+    }
+    
+    .box-valores>p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .box-realizacoes {
+        height: 95px;
+
+    }
+    .box-valores>h3 {
+        font-size: 2rem;
+    }
+    
+    .box-valores>p {
+        font-size: 1rem;
+    }
 }
