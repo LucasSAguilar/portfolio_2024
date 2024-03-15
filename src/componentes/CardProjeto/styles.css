@@ -1,82 +1,109 @@
 .card-projeto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 426.67px;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 365.71px;
 }
 
 .banner-projeto {
-    background-color: #FFFFFF;
-    width: 365.71px;
-    height: 205.71px;
+  background-color: #ffffff;
+  width: 365.71px;
+  height: 205.71px;
+}
+
+.titulo-projeto {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.descricao-projeto {
+  font-style: italic;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  height: 150px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.box-icons-projeto {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.icon-github,
+.icon-site,
+.icon-video {
+  width: 40px;
+  cursor: pointer;
+}
+
+.icon-github:hover,
+.icon-site:hover,
+.icon-video:hover {
+  filter: drop-shadow(0px 0px 4px red);
+}
+
+@media screen and (max-height: 1000px) {
+  .descricao-projeto {
+    height: 100px;
+  }
+
+  .banner-projeto {
+    width: 320px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .descricao-projeto {
+    font-size: 1rem;
+    height: 100px;
+  }
+  .icon-github,
+  .icon-site,
+  .icon-video {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    
+.escritos-card {
+    width: 60%;
 }
 
 .titulo-projeto {
     font-size: 1.5rem;
     margin-top: 15px;
+    text-align: center;
+
+  }
+  
+  .descricao-projeto {
+    font-size: 1rem;
+    height: 100px;
 }
 
-.descricao-projeto {
-    font-style: italic;
-    text-align: justify;
-    font-size: 1.2rem;
-    margin-top: 15px;
-    height: 150px;
-    overflow-y: auto;
+  .banner-projeto {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 
-}
-
-.box-icons-projeto{
-    margin-top: 15px;
-    display: flex   ;
+  }
+  .card-projeto {
     width: 100%;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .box-icons-projeto {
+    display: none;
+
+  }
+
+  
 }
-
-.icon-github, .icon-site, .icon-video {
-    width: 40px;
-    cursor: pointer;
-
-}
-
-.icon-github:hover, .icon-site:hover, .icon-video:hover{
-    filter: drop-shadow(0px 0px 4px red);
-
-}
-
-
-
-
-@media screen and (max-height: 1000px) {
-    .descricao-projeto {
-        height: 100px;
-    }
-
-    .banner-projeto {
-        width: 320px;
-        height: 180px;
-    }
-}
-@media screen and (max-width: 1400px) {
-    .descricao-projeto {
-        font-size: 1rem;
-        height: 100px;
-    }
-
-    .banner-projeto {
-        width: 320px;
-        height: 180px;
-    }
-    .card-projeto {
-        width: 320px;
-    }
-    .icon-github, .icon-site, .icon-video {
-        width: 30px;
-    
-    }
-}
-    
-
-

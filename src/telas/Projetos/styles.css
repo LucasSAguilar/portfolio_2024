@@ -45,6 +45,18 @@
 
 @media screen and (max-height: 850px) {
     .box-cards-projeto {
-        height: 300px;
+        height: 500px;
+    }
+    .box-posicionar-btn{
+        height: 10%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .title-projetos{ 
+        font-size: 2rem;
+    }
+    .box-cards-projeto {
+        display: flex;
+        flex-direction: column;
     }
 }
