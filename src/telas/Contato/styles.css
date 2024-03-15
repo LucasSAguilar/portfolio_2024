@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 2%;
 }
 
 .title-duvida-interesse {
@@ -18,14 +19,16 @@
 
 .explicacao-contato{
     font-size: 20px;
+    text-align: center;
 }
 
 .form-email{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
-    min-width: 400px;
+    width: 90%;
+    min-width: 340px;
+    max-width: 550px;
     height: 60%;
     padding: 15px;
     color: #000000;
@@ -34,8 +37,12 @@
 .form-email > input {
     width: 100%;
     padding: 5px;
-    color: #000000;
     font-size: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 4px #5f0909;
 
 }
 
@@ -46,11 +53,16 @@
 }
 
 .form-email > textarea {
+    margin-top: 10px;
     height: 30%;
     resize: none;
-    padding: 5px;
-    color: #000000;
+    padding: 10px;
     font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 4px #5f0909;
 
 }
 

@@ -7,7 +7,7 @@ const Contato = () => {
         Tem alguma dúvida ou interesse?
       </h3>
       <p className="explicacao-contato">
-        Envie um e-mail pelo formulário do lado e te responderei em breve!
+        Envie um e-mail pelo formulário e te responderei em breve!
       </p>
       <form className="form-email">
         <label>Nome:</label>
