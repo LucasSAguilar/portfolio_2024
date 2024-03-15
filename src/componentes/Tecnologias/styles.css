@@ -1,5 +1,7 @@
-
-
+.image-lucas {
+    transform: scaleX(-1);
+    transform-origin: center;
+}
 .tech-box:hover {
     animation: none;
 }
@@ -12,3 +14,11 @@
         transform: translateY(20px); /* ajuste a distância conforme necessário */
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .image-lucas {
+        width: 320px;
+   }
+    
+}
+    

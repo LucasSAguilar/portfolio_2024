@@ -1,6 +1,5 @@
 import "./styles.css";
 import lucas from "../../assets/lucas/Lucas.svg";
-import { useState } from "react";
 
 const Tecnologias = () => {
   return (

@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 20px;
 }
 
 
@@ -25,3 +26,46 @@
 .texto-destaque {
     font-size: 4rem;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .nome-apresentacao-home{
+        font-size: 1.5rem;
+    }
+    
+    .titulo-apresentacao-home, .texto-destaque{
+        font-size: 3.5rem;
+
+    }
+    
+    .areas-atuacao-apresentacao-home{
+        font-size: 1.5rem;
+    }
+ }
+
+@media screen and (max-width: 650px) {
+
+
+    .apresentacao-home{
+        margin-top: 100px;
+    }
+
+    .nome-apresentacao-home{
+        font-size: 1.2rem;
+    }
+    
+    .titulo-apresentacao-home, .texto-destaque{
+        font-size: 3rem;
+
+    }
+    
+    .areas-atuacao-apresentacao-home{
+        font-size: 1.2rem;
+    }
+
+    .posicionamento-home {
+        flex-direction: column;
+    }   
+}
+    
+
