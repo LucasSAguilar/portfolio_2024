@@ -108,7 +108,7 @@
     position: fixed;
     top: 6%;
     background-color: #000000ef;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     flex-direction: column;
     backdrop-filter: blur(40px);
