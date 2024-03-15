@@ -1,178 +1,170 @@
 .section-sobremim {
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    padding: 2%;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  padding: 2%;
 }
 
 .div-perfil {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .img-lucas-desenho {
-    background-image: radial-gradient(rgb(29, 3, 3) 50%, rgb(107, 11, 11));
-    border-radius: 100%;
-    border: 1px solid #FFFFFF;
+  background-image: radial-gradient(rgb(29, 3, 3) 50%, rgb(107, 11, 11));
+  border-radius: 100%;
+  border: 1px solid #ffffff;
 }
 
 .box-icons-rs {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    width: 350px;
-
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
 }
 
 .icons-rs {
-    cursor: pointer;
-} 
-
-.icons-rs:hover{
-    filter: drop-shadow(0px 0px 4px red);
-
+  cursor: pointer;
 }
 
+.icons-rs:hover {
+  filter: drop-shadow(0px 0px 4px red);
+}
 
 .div-dados {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.title-page-sobremim{
-    color: #FF0000;
-    font-size: 2rem;
-    text-align: right;
+.title-page-sobremim {
+  color: #ff0000;
+  font-size: 2rem;
+  text-align: right;
 }
 
 .texto-apresentacao > p {
-    font-size: 1.5rem;
-    text-align: justify;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 
 .texto-apresentacao {
-    height: 50%;
-    overflow-y: auto;
-    margin-top: 10px;
+  height: 50%;
+  overflow-y: auto;
+  margin-top: 10px;
 }
 
 .title-instituicoes {
-    font-size: 2rem;
-    margin: 40px 0;
+  font-size: 2rem;
+  margin: 40px 0;
 }
 
-.box-img-instituicoes{
-    display: flex;
-    justify-content: space-around;
+.box-img-instituicoes {
+  display: flex;
+  justify-content: space-around;
 }
 
 .imagens-instituicoes {
-    width: 100px;
+  width: 100px;
 }
 
-.imagem-ub{
-    height: 70px;
+.imagem-ub {
+  height: 70px;
 }
-
 
 @media screen and (max-height: 620px) {
-    .texto-apresentacao {
-        font-size: 1.3rem
-    }
-    .title-page-sobremim{
-        font-size: 1.5rem;
-    }
-    .title-instituicoes {
-        font-size: 1.5rem;
-        margin: 20px 0;
-    }
+  .texto-apresentacao {
+    font-size: 1.3rem;
+  }
+  .title-page-sobremim {
+    font-size: 1.5rem;
+  }
+  .title-instituicoes {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
 
-    .img-lucas-desenho {
-        width: 250px;
-    }
-    .icons-rs {
-        width: 35px;
-    } 
-    .box-icons-rs {
-        width: 250px;
-    
-    }
-
+  .img-lucas-desenho {
+    width: 250px;
+  }
+  .icons-rs {
+    width: 35px;
+  }
+  .box-icons-rs {
+    width: 250px;
+  }
 }
 
 @media screen and (max-width: 850px) {
-    .texto-apresentacao > p {
-        font-size: 1.3rem
-    }
-    .title-page-sobremim{
-        font-size: 1.5rem;
-    }
-    .title-instituicoes {
-        font-size: 1.5rem;
-        margin: 20px 0;
-    }
+  .texto-apresentacao > p {
+    font-size: 1.3rem;
+  }
+  .title-page-sobremim {
+    font-size: 1.5rem;
+  }
+  .title-instituicoes {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
 
-    .img-lucas-desenho {
-        width: 250px;
-    }
-    .icons-rs {
-        width: 35px;
-    } 
-    .box-icons-rs {
-        width: 250px;
-    
-    }
-    
-    .imagens-instituicoes {
-        width: 60px;
-    }
-    .imagem-ub {
-        height: 60px;
-    }
-    
+  .img-lucas-desenho {
+    width: 250px;
+  }
+  .icons-rs {
+    width: 35px;
+  }
+  .box-icons-rs {
+    width: 250px;
+  }
 
+  .imagens-instituicoes {
+    width: 60px;
+  }
+  .imagem-ub {
+    height: 60px;
+  }
 }
 @media screen and (max-width: 650px) {
-    .section-sobremim {
-        flex-direction: column;
-        align-items: center;
-    }
-    .div-dados {
-        width: 100%;
-        height: 50%;
-    }
+  .section-sobremim {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-dados {
+    margin-top: 5%;
+    width: 100%;
+    height: 60%;
+  }
 
-    .title-instituicoes {
-        text-align: center;
-    }
+  .title-instituicoes {
+    text-align: center;
+  }
 
-    .texto-apresentacao > p {
-        font-size: 1rem;
-    }
+  .texto-apresentacao > p {
+    font-size: 1rem;
+  }
 
-    .div-perfil {
-        height: 30%;
-    }
+  .div-perfil {
+    height: 30%;
+    margin-top: 10%;
+  }
 
-    .img-lucas-desenho {
-        width: 150px;
-    }
-    .icons-rs {
-        width: 30px;
-    }
+  .img-lucas-desenho {
+    width: 150px;
+  }
+  .icons-rs {
+    width: 30px;
+  }
 
-    .imagens-instituicoes {
-        width: 50px;
-    }
-    .imagem-ub {
-        height: 50px;
-    }
-
+  .imagens-instituicoes {
+    width: 50px;
+  }
+  .imagem-ub {
+    height: 50px;
+  }
 }
