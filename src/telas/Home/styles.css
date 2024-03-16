@@ -1,71 +1,100 @@
 .posicionamento-home {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-
-.nome-apresentacao-home{
-    font-weight: 100;
-    font-style: italic;
-    font-size: 2rem;
+.nome-apresentacao-home {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 2rem;
 }
 
-.titulo-apresentacao-home{
-    font-size: 4rem;
+.titulo-apresentacao-home {
+  font-size: 4rem;
+  overflow: hidden;
+  border-right: 0.15em solid #5a0202;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
-.areas-atuacao-apresentacao-home{
-    font-size: 2rem;
-    margin-top: 10px;
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+    padding-right: 5px;
+  }
+  50% {
+    border-color: #5a0202;
+  }
+}
+
+.areas-atuacao-apresentacao-home {
+  font-size: 2rem;
+  margin-top: 10px;
+  overflow: hidden;
+  animation: exibir_areas 1.5s forwards 4s;
+  width: 0%;
+}
+
+@keyframes exibir_areas {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 .texto-destaque {
-    font-size: 4rem;
+  font-size: 4rem;
 }
-
 
 @media screen and (max-width: 1000px) {
-    .nome-apresentacao-home{
-        font-size: 1.5rem;
-    }
-    
-    .titulo-apresentacao-home, .texto-destaque{
-        font-size: 3.5rem;
+  .nome-apresentacao-home {
+    font-size: 1.5rem;
+  }
 
-    }
-    
-    .areas-atuacao-apresentacao-home{
-        font-size: 1.5rem;
-    }
- }
+  .titulo-apresentacao-home,
+  .texto-destaque {
+    font-size: 3.5rem;
+  }
+
+  .areas-atuacao-apresentacao-home {
+    font-size: 1.5rem;
+  }
+}
 
 @media screen and (max-width: 650px) {
+  .apresentacao-home {
+    margin-top: 100px;
+  }
 
+  .nome-apresentacao-home {
+    font-size: 1.2rem;
+  }
 
-    .apresentacao-home{
-        margin-top: 100px;
-    }
+  .titulo-apresentacao-home,
+  .texto-destaque {
+    font-size: 2rem;
+  }
 
-    .nome-apresentacao-home{
-        font-size: 1.2rem;
-    }
-    
-    .titulo-apresentacao-home, .texto-destaque{
-        font-size: 3rem;
+  .areas-atuacao-apresentacao-home {
+    font-size: 1.2rem;
+  }
 
-    }
-    
-    .areas-atuacao-apresentacao-home{
-        font-size: 1.2rem;
-    }
-
-    .posicionamento-home {
-        flex-direction: column;
-    }   
+  .posicionamento-home {
+    flex-direction: column;
+  }
 }
-    
-
