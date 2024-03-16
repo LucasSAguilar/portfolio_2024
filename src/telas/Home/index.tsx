@@ -1,4 +1,4 @@
-import Tecnologias from "../../componentes/Tecnologias";
+import FotoLucas from "../../componentes/FotoLucas";
 import "./styles.css"
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
                 </ul>
             </div>
             <div className="tecnologias-usadas-home">
-                <Tecnologias />
+                <FotoLucas />
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
 import "./styles.css";
 import lucas from "../../assets/lucas/Lucas.svg";
 
-const Tecnologias = () => {
+const FotoLucas = () => {
   return (
     <div className="tech-box">
         <img src={lucas} className="image-lucas" />
@@ -9,4 +9,4 @@ const Tecnologias = () => {
   );
 };
 
-export default Tecnologias;
+export default FotoLucas;
