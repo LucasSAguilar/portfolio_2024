@@ -1,17 +1,18 @@
 .image-lucas {
     transform: scaleX(-1);
     transform-origin: center;
-}
-.tech-box:hover {
-    animation: none;
+    animation: exibirImagem forwards 1s;
+    opacity: 0;
+
 }
 
-@keyframes moveUpDown {
+
+@keyframes exibirImagem {
     0% {
-        transform: translateY(0);
+        opacity: 0;
     }
     100% {
-        transform: translateY(20px); /* ajuste a distância conforme necessário */
+        opacity: 1;
     }
 }
 
