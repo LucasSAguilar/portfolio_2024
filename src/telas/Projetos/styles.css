@@ -1,6 +1,7 @@
 .section-projetos {
     width: 100vw;
     height: 90vh;
+    min-height: 750px;
 }
 
 
@@ -10,6 +11,8 @@
     font-size: 3rem;
     text-align: center;
     padding-top: 5%;
+    margin-bottom: 5%;
+
 }
 
 .box-cards-projeto {
@@ -37,6 +40,11 @@
     font-size: 1.2rem;
 }
 
+.texto-destaque-projetos{
+    color: #FF0000;
+    font-size: 3rem;
+}
+
 .btn-mais-projetos:hover {
     background-color: #610F0F;
     color: #FFFFFF;
@@ -50,9 +58,20 @@
     .box-posicionar-btn{
         height: 10%;
     }
+    .title-projetos{
+        height: 10%;
+        text-align: center;
+    }
+    
 }
 @media screen and (max-width: 1200px) {
     .title-projetos{ 
+        font-size: 2rem;
+        text-align: right;
+        padding-top: 5%;
+        padding-right: 4%;
+    }
+    .texto-destaque-projetos{
         font-size: 2rem;
     }
     .box-cards-projeto {

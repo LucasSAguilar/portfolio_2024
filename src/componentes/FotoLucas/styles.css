@@ -20,6 +20,11 @@
     .image-lucas {
         width: 320px;
    }
+}
+@media screen and (max-height: 450px) {
+    .image-lucas {
+        width: 200px;
+   }
     
 }
     
