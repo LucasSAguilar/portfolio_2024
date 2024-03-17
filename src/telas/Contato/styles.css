@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: center;
     width: 90%;
-    min-width: 340px;
+    min-width: 250px;
     max-width: 550px;
     height: 60%;
     padding: 15px;
@@ -45,6 +45,7 @@
     outline: none;
     background-color: #ffffff;
     box-shadow: 0 0 5px 4px #5f0909;
+    margin-top: 5px;
 
 }
 
@@ -66,7 +67,6 @@
     background-color: #ffffff;
     box-shadow: 0 0 5px 4px #5f0909;
     color: #000000;
-
 }
 
 .form-btn-enviar{
@@ -85,6 +85,14 @@
 }
 
 
-@media screen and (max-height: 850px) {
-
+@media screen and (max-width: 500px) {
+    .title-duvida-interesse {
+        font-size: 18px;
+    }
+    .explicacao-contato{
+        font-size: 15px;
+    }
+    .form-email > textarea, .form-email > input {
+       font-size: 1rem;
+    }
 }

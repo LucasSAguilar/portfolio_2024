@@ -28,6 +28,11 @@
   width: 100%;
 }
 
+.descricao-projeto::-webkit-scrollbar {
+  width: 5px;
+}
+
+
 .box-icons-projeto {
   margin-top: 15px;
   display: flex;

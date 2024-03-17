@@ -57,3 +57,13 @@
         font-size: 1rem;
     }
 }
+@media screen and (max-width: 400px) {
+
+    .box-valores>h3 {
+        font-size: 1.5rem;
+    }
+    
+    .box-valores>p {
+        font-size: 1rem;
+    }
+}
