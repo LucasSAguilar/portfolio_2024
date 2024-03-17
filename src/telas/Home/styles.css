@@ -1,4 +1,5 @@
 .posicionamento-home {
+  padding: 15px;
   height: 100vh;
   min-height: 300px;
   display: flex;
@@ -80,6 +81,7 @@
 @media screen and (max-width: 650px) {
   .apresentacao-home {
     margin-top: 100px;
+    width: 250px;
   }
 
   .nome-apresentacao-home {
@@ -88,7 +90,7 @@
 
   .titulo-apresentacao-home,
   .texto-destaque {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .areas-atuacao-apresentacao-home {
