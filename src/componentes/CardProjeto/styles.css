@@ -10,6 +10,7 @@
   background-color: #ffffff;
   width: 365.71px;
   height: 205.71px;
+  object-fit: cover;
 }
 
 .titulo-projeto {

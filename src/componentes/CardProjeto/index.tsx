@@ -2,6 +2,7 @@ import "./styles.css";
 import github_icon from "../../assets/icones/icon_github.svg";
 import youtube_icon from "../../assets/icones/icon_youtube.svg";
 import website_icon from "../../assets/icones/icon_website.svg";
+import capa from "../../assets/projetos/FT_digital/capa.webp"
 
 interface projetoInterface {
   id: number;
@@ -10,6 +11,7 @@ interface projetoInterface {
   video: string;
   codigo: string;
   site: string;
+  capa: string;
 }
 
 interface projetoProps {
@@ -19,7 +21,7 @@ interface projetoProps {
 const CardProjeto = ({ projeto }: projetoProps) => {
   return (
     <div className="card-projeto">
-      <img alt="Banner 01" className="banner-projeto" />
+      <img alt="Banner 01" className="banner-projeto" src={projeto.capa}/>
       <div className="escritos-card">
         <h3 className="titulo-projeto">{projeto.titulo}</h3>
         <p className="descricao-projeto">{projeto.descricao}</p>

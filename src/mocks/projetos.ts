@@ -1,3 +1,5 @@
+import capa_FT_Digital from "../assets/projetos/FT_digital/capa.webp"
+
 const projetos = [
     {
         id: 1,
@@ -5,7 +7,8 @@ const projetos = [
         descricao: "Sistema desktop para gerir candidatos e colaboradores da empresa, contando com sistema de cadastro de currículo, evoluções sobre o indivíduo e sistema de score para definir melhores candidatos",
         video: "",
         codigo: "a",
-        site: "a"
+        site: "a",
+        capa: capa_FT_Digital
     },
     {
         id: 2,
@@ -13,7 +16,9 @@ const projetos = [
         descricao: "Teste Cartao Azul",
         video: "",
         codigo: "",
-        site: "b"
+        site: "b",
+        capa: "../assets/projetos/FT_digital/capa.webp"
+
     },
     {
         id: 3,
@@ -21,7 +26,9 @@ const projetos = [
         descricao: "Teste Commandas",
         video: "a",
         codigo: "",
-        site: "a"
+        site: "a",
+        capa: "../assets/projetos/FT_digital/capa.webp"
+
     }
     
 ]
