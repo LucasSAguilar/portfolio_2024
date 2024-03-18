@@ -1,10 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import CardProjeto from "../../componentes/CardProjeto";
 import projetos from "../../mocks/projetos";
 import "./styles.css";
 
 const Projetos = () => {
-
-    
+  const navigation = useNavigate();
 
   return (
     <div className="section-projetos">
@@ -12,11 +12,19 @@ const Projetos = () => {
         Meus <a className="texto-destaque-projetos">projetos</a>
       </h1>
       <div className="box-cards-projeto efeito-scroll-review">
-        {projetos.map((projeto) => <CardProjeto projeto={projeto}/>
+        {projetos.map((projeto) =>
+          projeto.destaque ? (
+            <CardProjeto key={projeto.id} projeto={projeto} />
+          ) : null
         )}
       </div>
       <div className="box-posicionar-btn">
-        <button className="btn-mais-projetos efeito-scroll-review">Ver mais projetos</button>
+        <button
+          className="btn-mais-projetos efeito-scroll-review"
+          onClick={() => navigation("/galeria")}
+        >
+          Ver mais projetos
+        </button>
       </div>
     </div>
   );

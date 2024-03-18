@@ -1,6 +1,6 @@
 import "./global_styles.css";
 import "./app_style.css";
-import Navbar from "./componentes/MenuNavegacao";
+import MenuNavegacao from "./componentes/MenuNavegacao";
 import Home from "./telas/Home";
 import SobreMim from "./telas/SobreMim";
 import Tela from "./componentes/Tela";
@@ -11,7 +11,7 @@ import Realizacoes from "./componentes/Realizacoes";
 import Footer from "./componentes/Footer";
 import ScrollReveal from "scrollreveal";
 
-function App() {
+function Pagina() {
   const homeRef = useRef<HTMLDivElement>(null);
   const sobreRef = useRef<HTMLDivElement>(null);
   const projetosRef = useRef<HTMLDivElement>(null);
@@ -24,7 +24,6 @@ function App() {
   };
   const scrollToSobre = () => {
     if (sobreRef.current) {
-      console.log("aqui");
       sobreRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
@@ -52,7 +51,7 @@ function App() {
   return (
     <Tela>
       <>
-        <Navbar
+        <MenuNavegacao
           onClickContato={() => scrollToContato()}
           onClickHome={() => scrollToHome()}
           onClickProjetos={() => scrollToProjetos()}
@@ -79,4 +78,4 @@ function App() {
   );
 }
 
-export default App;
+export default Pagina;

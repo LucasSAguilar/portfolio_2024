@@ -10,6 +10,8 @@ const projetos = [
         video: "",
         codigo: "",
         site: "",
+        tipo: "Trabalhos",
+        destaque: true,
         capa: capa_FT_Digital
     },
     {
@@ -19,6 +21,8 @@ const projetos = [
         video: "",
         codigo: "",
         site: "",
+        tipo: "Trabalhos",
+        destaque: true,
         capa: capa_Cartao_Azul
 
     },
@@ -29,6 +33,32 @@ const projetos = [
         video: "https://www.youtube.com/watch?v=fDdEslJN6rk",
         codigo: "",
         site: "",
+        tipo: "Trabalhos",
+        destaque: true,
+        capa: capa_Commandas
+
+    },
+    {
+        id: 4,
+        titulo: "Commandas",
+        descricao: "O 'Commandas' é uma solução inovadora atualmente em desenvolvimento para aprimorar a gestão de pedidos em estabelecimentos que oferecem comidas e bebidas. Este sistema completo é composto por duas partes cruciais: o Desktop, uma ferramenta robusta para administração centralizada, e o Mobile, um aplicativo ágil e intuitivo para facilitar o atendimento e os pedidos dos clientes. O Commandas promete oferecer uma experiência integrada e eficiente para a indústria gastronômica.",
+        video: "https://www.youtube.com/watch?v=fDdEslJN6rk",
+        codigo: "",
+        site: "",
+        tipo: "Trabalhos",
+        destaque: false,
+        capa: capa_Commandas
+
+    },
+    {
+        id: 5,
+        titulo: "Commandas",
+        descricao: "O 'Commandas' é uma solução inovadora atualmente em desenvolvimento para aprimorar a gestão de pedidos em estabelecimentos que oferecem comidas e bebidas. Este sistema completo é composto por duas partes cruciais: o Desktop, uma ferramenta robusta para administração centralizada, e o Mobile, um aplicativo ágil e intuitivo para facilitar o atendimento e os pedidos dos clientes. O Commandas promete oferecer uma experiência integrada e eficiente para a indústria gastronômica.",
+        video: "https://www.youtube.com/watch?v=fDdEslJN6rk",
+        codigo: "",
+        site: "",
+        tipo: "Trabalhos",
+        destaque: false,
         capa: capa_Commandas
 
     }
