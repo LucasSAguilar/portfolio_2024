@@ -52,7 +52,7 @@
 }
 
 
-@media screen and (max-height: 850px) {
+@media screen and (max-height: 950px) {
     .box-cards-projeto {
         height: 500px;
     }
