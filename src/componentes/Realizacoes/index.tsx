@@ -1,8 +1,19 @@
+import ScrollReveal from "scrollreveal";
 import "./styles.css";
+import { useEffect } from "react";
 
 const Realizacoes = () => {
+  useEffect(() => {
+    const sr = ScrollReveal({ reset: true });
+
+    sr.reveal("", {
+      duration: 2000,
+      distance: "80px",
+    });
+  }, []);
+
   return (
-    <div className="box-realizacoes glass-effect">
+    <div className="box-realizacoes glass-effect efeito-scroll-review">
       <div className="box-valores">
         <h3>+50</h3>
         <p>Repositórios programados</p>

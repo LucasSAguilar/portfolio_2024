@@ -16,9 +16,9 @@ const SobreMim = () => {
         <img
           src={lucas_desenho}
           alt="Lucas em versão desenho digital"
-          className="img-lucas-desenho"
+          className="img-lucas-desenho efeito-scroll-review"
         />
-        <div className="box-icons-rs">
+        <div className="box-icons-rs efeito-scroll-review">
           <img alt="icone linkedin" src={linkedin} className="icons-rs" />
           <img alt="icone github" src={github} className="icons-rs" />
           <img alt="icone x" src={x} className="icons-rs" />
@@ -28,7 +28,7 @@ const SobreMim = () => {
 
       <div className="div-dados">
         <h3 className="title-page-sobremim">Quem sou?</h3>
-        <div className="texto-apresentacao">
+        <div className="texto-apresentacao efeito-scroll-review">
           <p>
             Sou um desenvolvedor fullstack com sólida experiência na criação de
             sistemas abrangendo desde a arquitetura de servidores até a
@@ -42,10 +42,10 @@ const SobreMim = () => {
             que assumo.
           </p>
         </div>
-        <h4 className="title-instituicoes">
+        <h4 className="title-instituicoes efeito-scroll-review">
           Instituições de ensino que fiz parte
         </h4>
-        <div className="box-img-instituicoes">
+        <div className="box-img-instituicoes efeito-scroll-review">
           <img
             alt="Imagem da instituição Senac"
             src={senac}

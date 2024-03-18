@@ -3,13 +3,13 @@ import "./styles.css";
 const Contato = () => {
   return (
     <div className="section-contato">
-      <h3 className="title-duvida-interesse">
+      <h3 className="title-duvida-interesse efeito-scroll-review">
         Tem alguma dúvida ou interesse?
       </h3>
-      <p className="explicacao-contato">
+      <p className="explicacao-contato efeito-scroll-review">
         Envie um e-mail pelo formulário e te responderei em breve!
       </p>
-      <form className="form-email">
+      <form className="form-email efeito-scroll-review">
         <label>Nome:</label>
         <input placeholder="Insira seu nome" required />
         <label>E-mail:</label>

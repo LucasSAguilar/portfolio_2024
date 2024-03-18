@@ -8,10 +8,10 @@ const Projetos = () => {
 
   return (
     <div className="section-projetos">
-      <h1 className="title-projetos">
+      <h1 className="title-projetos efeito-scroll-review">
         Meus <a className="texto-destaque-projetos">projetos</a>
       </h1>
-      <div className="box-cards-projeto">
+      <div className="box-cards-projeto efeito-scroll-review">
         {projetos.map((projeto) => <CardProjeto projeto={projeto}/>
         )}
       </div>

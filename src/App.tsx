@@ -4,11 +4,12 @@ import Navbar from "./componentes/MenuNavegacao";
 import Home from "./telas/Home";
 import SobreMim from "./telas/SobreMim";
 import Tela from "./componentes/Tela";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Projetos from "./telas/Projetos";
 import Contato from "./telas/Contato";
 import Realizacoes from "./componentes/Realizacoes";
 import Footer from "./componentes/Footer";
+import ScrollReveal from "scrollreveal";
 
 function App() {
   const homeRef = useRef<HTMLDivElement>(null);
@@ -37,6 +38,16 @@ function App() {
       contatoRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+
+  useEffect(() => {
+    const sr = ScrollReveal({ reset: true });
+
+    sr.reveal(".efeito-scroll-review", {
+      duration: 2000,
+      distance: "80px",
+    });
+  }, []);
 
   return (
     <Tela>
