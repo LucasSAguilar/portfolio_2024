@@ -3,7 +3,7 @@ const projetos = [
         id: 1,
         titulo: "F.T. Digital",
         descricao: "Sistema desktop para gerir candidatos e colaboradores da empresa, contando com sistema de cadastro de currículo, evoluções sobre o indivíduo e sistema de score para definir melhores candidatos",
-        video: "a",
+        video: "",
         codigo: "a",
         site: "a"
     },
@@ -13,7 +13,7 @@ const projetos = [
         descricao: "Teste Cartao Azul",
         video: "",
         codigo: "",
-        site: "a"
+        site: "b"
     },
     {
         id: 3,
