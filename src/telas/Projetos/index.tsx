@@ -16,7 +16,7 @@ const Projetos = () => {
         )}
       </div>
       <div className="box-posicionar-btn">
-        <button className="btn-mais-projetos">Ver mais projetos</button>
+        <button className="btn-mais-projetos efeito-scroll-review">Ver mais projetos</button>
       </div>
     </div>
   );

@@ -26,9 +26,9 @@ const SobreMim = () => {
         </div>
       </div>
 
-      <div className="div-dados">
-        <h3 className="title-page-sobremim">Quem sou?</h3>
-        <div className="texto-apresentacao efeito-scroll-review">
+      <div className="div-dados  efeito-scroll-review">
+        <h3 className="title-page-sobremim ">Quem sou?</h3>
+        <div className="texto-apresentacao">
           <p>
             Sou um desenvolvedor fullstack com sólida experiência na criação de
             sistemas abrangendo desde a arquitetura de servidores até a
