@@ -27,15 +27,11 @@ const CardProjeto = ({ projeto }: projetoProps) => {
         <p className="descricao-projeto">{projeto.descricao}</p>
       </div>
       <div className="box-icons-projeto">
-        {
-          projeto.codigo !== "" ? <a href={projeto.codigo}><img src={github_icon} alt="Icone do github" className="icon-github" /></a> : null
-        }
-        {
-          projeto.site !== "" ? <a href={projeto.site}><img src={website_icon} alt="Icone do site" className="icon-site" /></a> : null
-        }
-        {
-          projeto.video !== "" ? <a href={projeto.video}><img src={youtube_icon} alt="Icone do youtube" className="icon-video" /></a> : null
-        }
+        
+          <a href={projeto.codigo}><img src={github_icon} alt="Icone do github" className={`icon-github ${projeto.codigo !== "" ?  "" : "icon-disabled"}`} /></a>
+          <a href={projeto.site}><img src={website_icon} alt="Icone da web" className={`icon-site ${projeto.site !== "" ?  "icon-disabled" : "icon-disabled"}`} /></a>
+          <a href={projeto.video}><img src={youtube_icon} alt="Icone do youtube" className={`icon-video ${projeto.video !== "" ?  "" : "icon-disabled"}`} /></a>
+        
       </div>
     </div>
   );
