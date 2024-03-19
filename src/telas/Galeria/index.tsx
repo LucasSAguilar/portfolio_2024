@@ -22,7 +22,7 @@ const Galeria = () => {
           <h3 className="subtitle-galeria-box">API</h3>
           <div className="galeria-separacao-api">
             {projetos.map((projeto) =>
-              projeto.tipo === "Trabalhos" ? (
+              projeto.tipo === "API" ? (
                 <CardProjeto projeto={projeto} />
               ) : null
             )}
@@ -30,7 +30,7 @@ const Galeria = () => {
           <h3 className="subtitle-galeria-box">Ferramentas</h3>
           <div className="galeria-separacao-api">
             {projetos.map((projeto) =>
-              projeto.tipo === "Trabalhos" ? (
+              projeto.tipo === "Ferramentas" ? (
                 <CardProjeto projeto={projeto} />
               ) : null
             )}
@@ -38,7 +38,7 @@ const Galeria = () => {
           <h3 className="subtitle-galeria-box">Jogos</h3>
           <div className="galeria-separacao-api">
             {projetos.map((projeto) =>
-              projeto.tipo === "Trabalhos" ? (
+              projeto.tipo === "Jogos" ? (
                 <CardProjeto projeto={projeto} />
               ) : null
             )}
@@ -51,10 +51,10 @@ const Galeria = () => {
               ) : null
             )}
           </div>
-          <h3 className="subtitle-galeria-box">Sites demonstrativos</h3>
+          <h3 className="subtitle-galeria-box">Sites expositivos</h3>
           <div className="galeria-separacao-api">
             {projetos.map((projeto) =>
-              projeto.tipo === "Trabalhos" ? (
+              projeto.tipo === "Sites expositivos" ? (
                 <CardProjeto projeto={projeto} />
               ) : null
             )}
