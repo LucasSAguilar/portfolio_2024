@@ -11,6 +11,7 @@ import capa_PK_Run from "../assets/projetos/PK_Run/capa.webp"
 import capa_Jogo_da_velha from "../assets/projetos/Jogo_da_velha/capa.webp"
 import capa_Organa from "../assets/projetos/Organa/capa.webp"
 import capa_Aguilar_Studies from "../assets/projetos/Aguilar_Studies/capa.webp"
+import capa_SysAssist from "../assets/projetos/SysAssist/capa.webp"
 
 const projetos = [
     // Trabalhos reais ---
@@ -170,6 +171,18 @@ const projetos = [
         tipo: "Ferramentas",
         destaque: false,
         capa: capa_Aguilar_Studies
+
+    },
+    {
+        id: 14,
+        titulo: "SysAssist",
+        descricao: "Aplicativo desktop para gerenciamento de atendimentos socioassistenciais e controle de atendimento a pacientes e/ou munícipes.",
+        video: "https://www.youtube.com/watch?v=AXC9lPCJI6g&t=52s",
+        codigo: "",
+        site: "",
+        tipo: "Trabalhos",
+        destaque: false,
+        capa: capa_SysAssist
 
     },
     
