@@ -1,4 +1,10 @@
 import FotoLucas from "../../componentes/FotoLucas";
+import iconNode from "../../assets/languages/node.svg"
+import iconAngular from "../../assets/languages/angular.svg"
+import iconReact from "../../assets/languages/react.svg"
+import iconSQL from "../../assets/languages/sql.svg"
+import iconBootstrap from "../../assets/languages/bootstrap.svg"
+
 import "./styles.css"
 
 const Home = () => {
@@ -14,6 +20,11 @@ const Home = () => {
                 </ul>
             </div>
             <div className="tecnologias-usadas-home">
+                <img src={iconNode} className="icon-geral icon-node"/>
+                <img src={iconAngular} className="icon-geral icon-angular"/>
+                <img src={iconReact} className="icon-geral icon-react"/>
+                <img src={iconBootstrap} className="icon-geral icon-bootstrap"/>
+                <img src={iconSQL} className="icon-geral icon-sql"/>
                 <FotoLucas />
             </div>
         </div>

@@ -50,6 +50,54 @@
   width: 0%;
 }
 
+
+.icon-geral{
+  width: 30px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  animation: movimentar-icone 4s linear infinite;
+}
+
+.icon-node {
+  left: 70%;
+  animation-delay: -1s; 
+}
+.icon-angular {
+  left: 50%;
+  animation-delay: -6s; 
+}
+.icon-react {
+  left: 90%;
+  animation-delay: -3s; 
+}
+.icon-bootstrap {
+  left: 10%;
+  animation-delay: -0.5s; 
+}
+.icon-sql {
+  left: 30%;
+  animation-delay: -2.5s; 
+}
+
+@keyframes movimentar-icone {
+  0% {
+    transform: translateY(0) translateX(-50%);
+  }
+  30% {
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(-200px) translateX(-50%);
+  }
+  100% {
+    transform: translateY(-200px) translateX(-50%) scale(2);
+    opacity: 0; 
+  }
+}
+
+
+
 @keyframes exibir_areas {
   from {
     width: 0%;
