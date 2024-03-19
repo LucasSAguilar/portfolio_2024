@@ -1,5 +1,4 @@
-import { useRef } from "react";
-import MenuNavegacao from "../../componentes/MenuNavegacao";
+
 import Tela from "../../componentes/Tela";
 import "./styles.css";
 import projetos from "../../mocks/projetos";
