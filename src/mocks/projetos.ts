@@ -1,6 +1,16 @@
 import capa_FT_Digital from "../assets/projetos/FT_digital/capa.webp"
 import capa_Cartao_Azul from "../assets/projetos/Cartao_Azul/capa.webp"
 import capa_Commandas from "../assets/projetos/Commandas/capa.webp"
+import capa_LoginMySQL from "../assets/projetos/LoginMySQL/capa.webp"
+import capa_ViaCEP from "../assets/projetos/ViaCEP/capa.webp"
+import capa_Aguilar_Space from "../assets/projetos/Aguilar_Space/capa.webp"
+import capa_Serenatto from "../assets/projetos/Serenatto/capa.webp"
+import capa_Meteora from "../assets/projetos/Meteora/capa.webp"
+import capa_Cinetag from "../assets/projetos/Cinetag/capa.webp"
+import capa_PK_Run from "../assets/projetos/PK_Run/capa.webp"
+import capa_Jogo_da_velha from "../assets/projetos/Jogo_da_velha/capa.webp"
+import capa_Organa from "../assets/projetos/Organa/capa.webp"
+import capa_Aguilar_Studies from "../assets/projetos/Aguilar_Studies/capa.webp"
 
 const projetos = [
     // Trabalhos reais ---
@@ -49,7 +59,7 @@ const projetos = [
         site: "https://lucassaguilar.github.io/login_e_cadastro_com_mysql/",
         tipo: "API",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_LoginMySQL
 
     },
     {
@@ -61,7 +71,7 @@ const projetos = [
         site: "https://lucassaguilar.github.io/consumo_API_VIACEP/",
         tipo: "API",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_ViaCEP
 
     },
     // Sites expositivos ----
@@ -74,7 +84,7 @@ const projetos = [
         site: "https://aguilar-space.vercel.app",
         tipo: "Sites expositivos",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_Aguilar_Space
 
     },
     {
@@ -86,7 +96,7 @@ const projetos = [
         site: "https://lucassaguilar.github.io/Serenatto/",
         tipo: "Sites expositivos",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_Serenatto
 
     },
     {
@@ -98,7 +108,7 @@ const projetos = [
         site: "https://lucassaguilar.github.io/Meteora/",
         tipo: "Sites expositivos",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_Meteora
     },
     {
         id: 9,
@@ -109,7 +119,7 @@ const projetos = [
         site: "https://cinetag-peach-three.vercel.app",
         tipo: "Sites expositivos",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_Cinetag
 
     },
     // Jogos ----
@@ -122,7 +132,7 @@ const projetos = [
         site: "https://lucassaguilar.github.io/pumpkin_run/",
         tipo: "Jogos",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_PK_Run
 
     },
     {
@@ -134,7 +144,7 @@ const projetos = [
         site: "https://lucassaguilar.github.io/jogo-da-velha/",
         tipo: "Jogos",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_Jogo_da_velha
 
     },
     // Ferramentas ---
@@ -147,7 +157,7 @@ const projetos = [
         site: "https://organa-times.vercel.app",
         tipo: "Ferramentas",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_Organa
 
     },   
     {
@@ -159,7 +169,7 @@ const projetos = [
         site: "https://aguilar-studies.vercel.app",
         tipo: "Ferramentas",
         destaque: false,
-        capa: capa_Commandas
+        capa: capa_Aguilar_Studies
 
     },
     
