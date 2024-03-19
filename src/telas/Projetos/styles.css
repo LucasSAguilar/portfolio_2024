@@ -76,6 +76,8 @@
         flex-direction: column;
     }
 }
+
+
 @media screen and (max-width: 300px) {
 
     .btn-mais-projetos{

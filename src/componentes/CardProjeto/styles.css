@@ -122,8 +122,15 @@
     justify-content: space-around;
     margin: 0;
   }
+}
 
-
+@media screen and (max-width: 600px) {
+  .icon-github,
+  .icon-site,
+  .icon-video {
+    width: 25px;
+  }
+  
 }
 
 @media screen and (max-width: 400px) {
@@ -132,3 +139,5 @@
     height: 70px;
   }
 }
+
+
