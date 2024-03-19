@@ -11,11 +11,11 @@ const Contato = () => {
       </p>
       <form className="form-email efeito-scroll-review">
         <label>Nome:</label>
-        <input placeholder="Insira seu nome" required />
+        <input placeholder="Insira seu nome" name="name" required />
         <label>E-mail:</label>
-        <input placeholder="Insira seu e-mail" type="email" required />
+        <input placeholder="Insira seu e-mail" name="email" type="email" required />
         <label>Mensagem:</label>
-        <textarea maxLength={500} placeholder="Insira sua mensagem aqui" required />
+        <textarea maxLength={500} placeholder="Insira sua mensagem aqui" name="message" required />
 
         <button className="form-btn-enviar">Enviar</button>
       </form>
