@@ -41,7 +41,7 @@ const CardProjeto = ({ projeto }: projetoProps) => {
             src={website_icon}
             alt="Icone da web"
             className={`icon-site ${
-              projeto.site !== "" ? "icon-disabled" : "icon-disabled"
+              projeto.site !== "" ? "" : "icon-disabled"
             }`}
           />
         </a>
