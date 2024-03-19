@@ -34,11 +34,16 @@
   width: 5px;
 }
 
+.escritos-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .box-icons-projeto {
   margin-top: 15px;
   display: flex;
-  width: 50%;
+  width: 75%;
   align-items: center;
   justify-content: space-between;
 }
@@ -118,10 +123,7 @@
     margin: 0;
   }
 
-  .box-icons-projeto {
-    display: none;
 
-  }
 }
 
 @media screen and (max-width: 400px) {
