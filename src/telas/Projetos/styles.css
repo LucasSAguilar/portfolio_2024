@@ -62,6 +62,9 @@
     
 }
 @media screen and (max-width: 1200px) {
+    .section-projetos {
+        min-height: 1000px;
+    }
     .title-projetos{ 
         font-size: 2rem;
         text-align: right;
