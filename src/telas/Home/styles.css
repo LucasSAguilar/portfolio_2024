@@ -127,23 +127,42 @@
   }
 }
 
-@media screen and (max-width: 650px) {
-  .apresentacao-home {
-    margin-top: 100px;
-    width: 250px;
-  }
-
+@media screen and (max-width: 1000px) {
   .nome-apresentacao-home {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .titulo-apresentacao-home,
   .texto-destaque {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .areas-atuacao-apresentacao-home {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .apresentacao-home {
+    margin-top: 100px;
+  }
+
+  .nome-apresentacao-home {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .titulo-apresentacao-home,
+  .texto-destaque {
+    font-size: 2rem;
+    text-align: center;
+  
+  }
+
+  .areas-atuacao-apresentacao-home {
+    font-size: 1.5rem;
+    text-align: center;
+
   }
 
   .posicionamento-home {

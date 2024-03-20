@@ -21,6 +21,11 @@
         width: 320px;
    }
 }
+@media screen and (max-width: 850px) {
+    .image-lucas {
+        width: 250px;
+   }
+}
 @media screen and (max-height: 450px) {
     .image-lucas {
         width: 200px;
