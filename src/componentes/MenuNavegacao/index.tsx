@@ -60,7 +60,7 @@ const MenuNavegacao = ({
           </li>
           <li className="btn-cv-burguer">
             <a
-              href="https://drive.google.com/file/d/12UPk9kBqh1wgXdyMKnr4aiMFRwiJxgnP/view?usp=sharing"
+              href="https://drive.google.com/file/d/1u8eemPySodYVLxzxrAUTH7L-eja2NXFA/view?usp=sharing"
               target="_blank"
             >
               Baixe meu CV
