@@ -19,7 +19,7 @@ const projetos = [
         id: 1,
         titulo: "F.T. Digital",
         descricao: "Sistema desktop para gerir candidatos e colaboradores da empresa, contando com sistema de cadastro de currículo, evoluções sobre o indivíduo e sistema de score para definir melhores candidatos",
-        video: "",
+        video: "https://www.youtube.com/watch?v=WfX0YBzV434",
         codigo: "",
         site: "",
         tipo: "Trabalhos",
