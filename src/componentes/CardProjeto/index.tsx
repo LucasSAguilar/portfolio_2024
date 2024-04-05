@@ -26,7 +26,7 @@ const CardProjeto = ({ projeto }: projetoProps) => {
         <h3 className="titulo-projeto">{projeto.titulo}</h3>
         <p className="descricao-projeto">{projeto.descricao}</p>
         <div className="box-icons-projeto">
-          <a href={projeto.codigo}>
+          <a href={projeto.codigo} target="_blank">
             <img
               src={github_icon}
               alt="Icone do github"
@@ -35,7 +35,7 @@ const CardProjeto = ({ projeto }: projetoProps) => {
               }`}
             />
           </a>
-          <a href={projeto.site}>
+          <a href={projeto.site} target="_blank">
             <img
               src={website_icon}
               alt="Icone da web"
@@ -44,7 +44,7 @@ const CardProjeto = ({ projeto }: projetoProps) => {
               }`}
             />
           </a>
-          <a href={projeto.video}>
+          <a href={projeto.video} target="_blank">
             <img
               src={youtube_icon}
               alt="Icone do youtube"

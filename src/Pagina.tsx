@@ -64,7 +64,6 @@ function Pagina() {
         <div ref={projetosRef}>
           <Projetos />
         </div>
-          <div className="glass-effect divisao-sections"/>
         <div ref={sobreRef}>
           <SobreMim />
         </div>
