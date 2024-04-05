@@ -67,7 +67,6 @@ function Pagina() {
         <div ref={sobreRef}>
           <SobreMim />
         </div>
-
         <div ref={contatoRef}>
           <Contato />
         </div>

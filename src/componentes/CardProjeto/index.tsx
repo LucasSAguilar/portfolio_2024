@@ -3,9 +3,10 @@ import github_icon from "../../assets/icones/icon_github.svg";
 import youtube_icon from "../../assets/icones/icon_youtube.svg";
 import website_icon from "../../assets/icones/icon_website.svg";
 import capa from "../../assets/projetos/FT_digital/capa.webp";
+import { useNavigate } from "react-router-dom";
 
 interface projetoInterface {
-  id: number;
+  id: string;
   titulo: string;
   descricao: string;
   video: string;
@@ -19,8 +20,17 @@ interface projetoProps {
 }
 
 const CardProjeto = ({ projeto }: projetoProps) => {
+  const navigation = useNavigate();
+
   return (
-    <div className="card-projeto">
+    <div
+      className="card-projeto"
+      onClick={() => {
+        console.log("Ainda não liberado essa navegação");
+
+        // navigation(`/galeria/${projeto.id}`)}
+      }}
+    >
       <img alt="Banner 01" className="banner-projeto" src={projeto.capa} />
       <div className="escritos-card">
         <h3 className="titulo-projeto">{projeto.titulo}</h3>

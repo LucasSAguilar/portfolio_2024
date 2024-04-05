@@ -16,7 +16,7 @@ import capa_SysAssist from "../assets/projetos/SysAssist/capa.webp"
 const projetos = [
     // Trabalhos reais ---
     {
-        id: 1,
+        id: "1",
         titulo: "F.T. Digital",
         descricao: "Sistema desktop para gerir candidatos e colaboradores da empresa, contando com sistema de cadastro de currículo, evoluções sobre o indivíduo e sistema de score para definir melhores candidatos",
         video: "https://www.youtube.com/watch?v=WfX0YBzV434",
@@ -24,10 +24,90 @@ const projetos = [
         site: "",
         tipo: "Trabalhos",
         destaque: true,
-        capa: capa_FT_Digital
+        capa: capa_FT_Digital,
+        markdown: `
+        # Frente de Trabalho Digital
+        
+        Sistema encomendado pela Assistência Social de SRPQ para administração RH do programa "Frente de Trabalho".
+        
+        ## Tecnologias:
+        - Javascript
+        - SCSS
+        - HTML
+        - Electron
+        - SQLite
+        - NodeJS
+        - React JS
+        - Electron Forge
+        - Bootstrap
+        - Axios
+        - React Toastify
+        - Node
+        - Express
+        
+        ### Como entregar:
+        - Instale todas as dependências usadas:
+        
+             npm install
+        
+        - Primeiro faça a build do react usando o comando:
+        
+            npm run build
+        
+        - Acesse o index.html e edite o acesso aos arquivos:
+        link: \`"/exemplo.js" >>>> "./exemplo.js"\`
+        Isso deve ser feito em **TODOS**
+        
+        - Após gerar a build e organizar o *index.html* você pode iniciar o electron forge, para isso use:
+        
+            npm run make
+        
+        O projeto deve sair em uma pasta no mesmo diretório chamada *"out"*
+        
+        ### Requisitos
+        
+        O sistema roda no backend roda através do NodeJS, então é extremamente importante que ele esteja instalado para o pleno funcionamento do sistema.
+        
+        ### Servidor
+        
+        O servidor Node funciona através de children process, veja:
+        
+            app.on("ready", () => {
+            createWindow();
+           
+            childProcess.spawn("node", [\`\${__dirname}/server/server.js\`], {
+            env: { ELECTRON_START:  "node-server" },
+            stdio:  "inherit",
+            });
+            
+            });
+        
+        Com isso, fica claro que o servidor é iniciado assim que a aplicação é aberta, sendo exibido para o usuário o terminal do próprio Node. 
+        
+        **ATENÇÃO**
+        
+        Esse terminal não pode ser encerrado ou acarretará na finalização do servidor
+        
+        ### Banco de dados
+        
+        O banco de dados usado é em SQLite e é gerado automáticamente quando o usuário abrir o sistema pela primeira vez com o nome "database", veja o caminho:
+        
+        > \\FT_Digital\\out\\ftdigital-win32-x64\\database.db
+        
+        Para manutenções o programa recomendado é o ***DB Browser for SQLite***
+        
+        ### Login
+        
+        O login padrão para acesso é:
+        
+        *usuário: admin
+        senha: admin*
+        
+        Pode e deve ser trocado posteriormente para o usuário
+        `
     },
     {
-        id: 2,
+        id: "2",
         titulo: "Cartão Azul",
         descricao: "O 'Cartão Azul' vai além de ser um simples aplicativo de desktop; é uma ferramenta de impacto social desenvolvida com dedicação para a Assistência Social da cidade de Santa Rita do Passa Quatro. Neste projeto, criei um sistema que visa agilizar e controlar a emissão de documentos essenciais para pessoas com Transtorno do Espectro Autista (TEA), proporcionando um acesso simplificado a serviços cruciais.",
         video: "",
@@ -39,7 +119,7 @@ const projetos = [
 
     },
     {
-        id: 3,
+        id: "3",
         titulo: "Commandas",
         descricao: "O 'Commandas' é uma solução inovadora atualmente em desenvolvimento para aprimorar a gestão de pedidos em estabelecimentos que oferecem comidas e bebidas. Este sistema completo é composto por duas partes cruciais: o Desktop, uma ferramenta robusta para administração centralizada, e o Mobile, um aplicativo ágil e intuitivo para facilitar o atendimento e os pedidos dos clientes. O Commandas promete oferecer uma experiência integrada e eficiente para a indústria gastronômica.",
         video: "https://www.youtube.com/watch?v=fDdEslJN6rk",
@@ -52,7 +132,7 @@ const projetos = [
     },
     // API ----
     {
-        id: 4,
+        id: "4",
         titulo: "Sistema de Cadastro/Login",
         descricao: "Sistema que emula um login e cadastro de novos usuários, sendo incluido a comunicação entre o a parte visual, servidor e banco de dados relacional",
         video: "",
@@ -64,7 +144,7 @@ const projetos = [
 
     },
     {
-        id: 5,
+        id: "5",
         titulo: "Via CEP",
         descricao: "Um formulário que utiliza a API do Via CEP, líder de mercado em localização. Isso significa preenchimento automático e preciso do endereço, economizando tempo e garantindo dados corretos.",
         video: "",
@@ -77,7 +157,7 @@ const projetos = [
     },
     // Sites expositivos ----
     {
-        id: 6,
+        id: "6",
         titulo: "Aguilar Space",
         descricao: "Um site demonstrativo que simula uma galeria digital com tema espacial, buscando uma estética que garanta ao usuário uma experiência imersiva.",
         video: "",
@@ -89,7 +169,7 @@ const projetos = [
 
     },
     {
-        id: 7,
+        id: "7",
         titulo: "Serenatto",
         descricao: "Uma landing page para uma cafeteria, sendo desenvolvido com paixão e criatividade, destaca-se pela sua simplicidade e elegância, proporcionando aos visitantes uma experiência visualmente atraente e aconchegante.",
         video: "",
@@ -101,7 +181,7 @@ const projetos = [
 
     },
     {
-        id: 8,
+        id: "8",
         titulo: "Meteora",
         descricao: "Uma simulação de um e-commerce na temática de moda, sendo esse criado através de bootstrap, fornecendo assim uma estética atual e fascinante",
         video: "",
@@ -112,7 +192,7 @@ const projetos = [
         capa: capa_Meteora
     },
     {
-        id: 9,
+        id: "9",
         titulo: "Cinetag",
         descricao: "Um site que simula um streaming de vídeo, com possibilidade para adicionar “filmes” aos favoritos. Para simular foram usados vídeo aulas de professores da Alura no próprio Youtube.",
         video: "",
@@ -125,7 +205,7 @@ const projetos = [
     },
     // Jogos ----
     {
-        id: 10,
+        id: "10",
         titulo: "Pumpkin Run",
         descricao: "Um jogo totalmente feito com javascript no estilo “endless run”, sendo essa uma categoria que permite o jogador a sobreviver o máximo de tempo possível enquanto surgem obstáculos no caminho",
         video: "",
@@ -137,7 +217,7 @@ const projetos = [
 
     },
     {
-        id: 11,
+        id: "11",
         titulo: "Jogo da velha",
         descricao: "O clássico jogo da velha, sendo esse desenvolvido apenas usando javascript",
         video: "",
@@ -150,7 +230,7 @@ const projetos = [
     },
     // Ferramentas ---
     {
-        id: 12,
+        id: "12",
         titulo: "Organa",
         descricao: "Um sistema para gerenciar times por grupos específicos, sendo esses dinâmicos e passíveis de alterações.",
         video: "",
@@ -162,7 +242,7 @@ const projetos = [
 
     },   
     {
-        id: 13,
+        id: "13",
         titulo: "Aguilar Studies",
         descricao: "Projetada para tornar o processo de organização dos seus estudos mais eficiente e produtivo. Neste projeto, mergulhamos na criação de um aplicativo web que possibilita aos usuários cadastrar temas de estudo, definir o tempo alocado para cada tópico e iniciar a contagem de estudos",
         video: "",
@@ -174,7 +254,7 @@ const projetos = [
 
     },
     {
-        id: 14,
+        id: "14",
         titulo: "SysAssist",
         descricao: "Aplicativo desktop para gerenciamento de atendimentos socioassistenciais e controle de atendimento a pacientes e/ou munícipes.",
         video: "https://www.youtube.com/watch?v=AXC9lPCJI6g&t=52s",
