@@ -20,7 +20,7 @@ const SobreMim = () => {
         />
         <div className="box-icons-rs efeito-scroll-review">
           <a href="https://www.linkedin.com/in/lucasaguilardesenvolvedor/" target="_blank"><img alt="icone linkedin" src={linkedin} className="icons-rs" /></a>
-          <a href="https://www.linkedin.com/in/lucasaguilardesenvolvedor/" target="_blank"><img alt="icone github" src={github} className="icons-rs" /></a>
+          <a href="https://github.com/lucassaguilar" target="_blank"><img alt="icone github" src={github} className="icons-rs" /></a>
           <a href="https://twitter.com/sir_Lusk4" target="_blank"><img alt="icone x" src={x} className="icons-rs" /></a>
           <a href="https://www.instagram.com/lucass_aguillar/" target="_blank"><img alt="icone instagram" src={instagram} className="icons-rs" /></a>
         </div>
