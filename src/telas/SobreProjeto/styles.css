@@ -1,6 +1,10 @@
 .section-galeria {
     height: 100vh;
-    padding: 20px;
+}
+
+
+.header-sobre-projeto {
+    height: 15%;
 }
 
 .logo-galeria {
@@ -22,31 +26,8 @@
     height: 80%;
     width: 100%;
     background-color: #00000044;
-    display: flex;
-    flex-direction: column;
+    padding: 0 15px;
     align-items: center;
-    overflow-y: auto;
-}
-
-.box-projetos-galeria h1 {
-    font-size: 2rem;
-    margin: 15px;
-}
-
-.box-projetos-galeria h2 {
-    font-size: 1.4rem;
-    margin: 15px;
-}
-.box-projetos-galeria p {
-    font-size: 1.3rem;
-    margin: 10px 0 30px 0;
-}
-.box-projetos-galeria li {
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
-    border-bottom: 1px solid #FFFFFF;
 }
 
 .subtitle-galeria-box{
@@ -59,10 +40,50 @@
     padding-left: 20px;
 }
 
-
-.btn-retornar-galeria:hover{
-    background-color: #290303a1;
+.markdown-sobre-projeto {
+    
+    padding: 20px 0;
+    overflow-y: auto;
+    height: 85%;
+    width: 100%;
 }
+
+.box-botoes-projeto{
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+.box-botoes-projeto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-botoes-projeto a{
+    color: #FFFFFF;
+    background: none;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: center;
+}
+.box-botoes-projeto .btn-voltar{
+    color: #ff0000;
+}
+.box-botoes-projeto a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.box-botoes-projeto .btn-voltar:hover{
+    background-color: #ff0000;
+    color: #000000;
+}
+
+
+
 
 @media screen and (max-width: 400px) {
     .subtitle-galeria-box{
@@ -74,4 +95,52 @@
     .box-projetos-galeria{
         height: 75%;
     }
+    .box-botoes-projeto button{
+        width: 60px;
+        padding: 10px;
+    }
+}
+
+
+
+
+/* --- CODIGOS DO MARKDOWN ------ */
+
+
+.box-projetos-galeria h1 {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.box-projetos-galeria h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+.box-projetos-galeria h3 {
+    font-size: 1.6rem;
+    margin: 40px 0;
+    padding-top: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+.box-projetos-galeria p {
+    font-size: 1.3rem;
+    margin: 10px 0 30px 0;
+    width: 100%;
+}
+.box-projetos-galeria li {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.box-projetos-galeria ul {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 5px black;
+}
+.box-projetos-galeria pre {
+    padding: 10px;
+    width: 100%;
+    background-color: #0000005b
 }

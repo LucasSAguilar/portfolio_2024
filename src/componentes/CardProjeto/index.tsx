@@ -13,6 +13,7 @@ interface projetoInterface {
   codigo: string;
   site: string;
   capa: string;
+  markdown: string;
 }
 
 interface projetoProps {
@@ -26,9 +27,9 @@ const CardProjeto = ({ projeto }: projetoProps) => {
     <div
       className="card-projeto"
       onClick={() => {
-        console.log("Ainda não liberado essa navegação");
-
-        //navigation(`/galeria/${projeto.id}`)
+        if (projeto.markdown !== "") {
+          navigation(`/galeria/${projeto.id}`);
+        }
       }}
     >
       <img alt="Banner 01" className="banner-projeto" src={projeto.capa} />
