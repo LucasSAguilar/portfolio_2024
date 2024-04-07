@@ -22,7 +22,7 @@
     margin: 15px 0;
 }
 
-.box-projetos-galeria{
+.box-sobre-projeto{
     height: 80%;
     width: 100%;
     background-color: #00000044;
@@ -92,7 +92,7 @@
     .section-galeria {
         padding: 20px 2px;
     }
-    .box-projetos-galeria{
+    .box-sobre-projeto{
         height: 75%;
     }
     .box-botoes-projeto button{
@@ -107,39 +107,39 @@
 /* --- CODIGOS DO MARKDOWN ------ */
 
 
-.box-projetos-galeria h1 {
+.box-sobre-projeto h1 {
     font-size: 2rem;
     margin: 15px 0;
 }
 
-.box-projetos-galeria h2 {
+.box-sobre-projeto h2 {
     font-size: 1.8rem;
     margin: 15px 0;
 }
-.box-projetos-galeria h3 {
+.box-sobre-projeto h3 {
     font-size: 1.6rem;
     margin: 40px 0;
     padding-top: 10px;
     border-top: 1px solid #FFFFFF;
 }
-.box-projetos-galeria p {
+.box-sobre-projeto p {
     font-size: 1.3rem;
     margin: 10px 0 30px 0;
     width: 100%;
 }
-.box-projetos-galeria li {
+.box-sobre-projeto li {
     font-size: 1.3rem;
     text-align: center;
     margin: 5px;
     padding: 10px;
     border-bottom: 1px solid #FFFFFF;
 }
-.box-projetos-galeria ul {
+.box-sobre-projeto ul {
     width: 90%;
     margin: 0 auto;
     box-shadow: 0px 0px 10px 5px black;
 }
-.box-projetos-galeria pre {
+.box-sobre-projeto pre {
     padding: 10px;
     width: 100%;
     background-color: #0000005b

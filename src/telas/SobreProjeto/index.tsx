@@ -27,7 +27,7 @@ const Galeria = () => {
             {projeto_definido === undefined ? "" : projeto_definido.titulo}
           </h2>
         </div>
-        <div className="box-projetos-galeria">
+        <div className="box-sobre-projeto">
           <Markdown className="markdown-sobre-projeto">
             {projeto_definido?.markdown}
           </Markdown>
