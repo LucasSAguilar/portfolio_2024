@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 const Galeria = () => {
 
-    const navigation = useNavigate()
+    const navigation = useNavigate();
 
   return (
     <Tela>
