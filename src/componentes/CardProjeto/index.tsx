@@ -28,7 +28,7 @@ const CardProjeto = ({ projeto }: projetoProps) => {
       onClick={() => {
         console.log("Ainda não liberado essa navegação");
 
-        // navigation(`/galeria/${projeto.id}`)}
+        //navigation(`/galeria/${projeto.id}`)
       }}
     >
       <img alt="Banner 01" className="banner-projeto" src={projeto.capa} />

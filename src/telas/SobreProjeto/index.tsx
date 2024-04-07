@@ -7,16 +7,27 @@ import Markdown from 'react-markdown';
 
 const Galeria = () => {
 
-    const navigation = useNavigate()
-    const {id_query} = useParams()
-    
-    const encontrarPorID = () => {
-       const a = projetos.find((projeto) => projeto.id === id_query)
-       return a
-       
-    }
-    const projeto_definido = encontrarPorID()
+  const teste = `
+  # Testando aqui
+  # Segunda linha
+  Base
+  `
 
+  console.log(typeof(teste));
+  
+  
+  const navigation = useNavigate()
+  const {id_query} = useParams()
+  
+  const encontrarPorID = () => {
+    const a = projetos.find((projeto) => projeto.id === id_query)
+    return a
+    
+  }
+  const projeto_definido = encontrarPorID()
+  const markdown = projeto_definido?.markdown
+  
+  console.log(typeof(projeto_definido?.markdown));
 
   return (
     <Tela>
@@ -27,6 +38,8 @@ const Galeria = () => {
         <h2 className="galeria-title">{projeto_definido === undefined ? "" : projeto_definido.titulo}</h2>
 
         <div className="box-projetos-galeria">
+          
+          <Markdown>{projeto_definido?.markdown}</Markdown>
         </div>
           <div className="btn-retornar-galeria" onClick={()=> navigation("/")}>
             Retornar

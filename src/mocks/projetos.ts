@@ -15,97 +15,19 @@ import capa_SysAssist from "../assets/projetos/SysAssist/capa.webp"
 
 const projetos = [
     // Trabalhos reais ---
-    {
-        id: "1",
-        titulo: "F.T. Digital",
-        descricao: "Sistema desktop para gerir candidatos e colaboradores da empresa, contando com sistema de cadastro de currículo, evoluções sobre o indivíduo e sistema de score para definir melhores candidatos",
-        video: "https://www.youtube.com/watch?v=WfX0YBzV434",
-        codigo: "",
-        site: "",
-        tipo: "Trabalhos",
-        destaque: true,
-        capa: capa_FT_Digital,
-        markdown: `
-        # Frente de Trabalho Digital
-        
-        Sistema encomendado pela Assistência Social de SRPQ para administração RH do programa "Frente de Trabalho".
-        
-        ## Tecnologias:
-        - Javascript
-        - SCSS
-        - HTML
-        - Electron
-        - SQLite
-        - NodeJS
-        - React JS
-        - Electron Forge
-        - Bootstrap
-        - Axios
-        - React Toastify
-        - Node
-        - Express
-        
-        ### Como entregar:
-        - Instale todas as dependências usadas:
-        
-             npm install
-        
-        - Primeiro faça a build do react usando o comando:
-        
-            npm run build
-        
-        - Acesse o index.html e edite o acesso aos arquivos:
-        link: \`"/exemplo.js" >>>> "./exemplo.js"\`
-        Isso deve ser feito em **TODOS**
-        
-        - Após gerar a build e organizar o *index.html* você pode iniciar o electron forge, para isso use:
-        
-            npm run make
-        
-        O projeto deve sair em uma pasta no mesmo diretório chamada *"out"*
-        
-        ### Requisitos
-        
-        O sistema roda no backend roda através do NodeJS, então é extremamente importante que ele esteja instalado para o pleno funcionamento do sistema.
-        
-        ### Servidor
-        
-        O servidor Node funciona através de children process, veja:
-        
-            app.on("ready", () => {
-            createWindow();
-           
-            childProcess.spawn("node", [\`\${__dirname}/server/server.js\`], {
-            env: { ELECTRON_START:  "node-server" },
-            stdio:  "inherit",
-            });
+        {
+            id: "1",
+            titulo: "F.T. Digital",
+            descricao: "Sistema desktop para gerir candidatos e colaboradores da empresa, contando com sistema de cadastro de currículo, evoluções sobre o indivíduo e sistema de score para definir melhores candidatos",
+            video: "https://www.youtube.com/watch?v=WfX0YBzV434",
+            codigo: "",
+            site: "",
+            tipo: "Trabalhos",
+            destaque: true,
+            capa: capa_FT_Digital,
+            markdown: "# Frente de Trabalho Digital\n\nSistema encomendado pela Assistência Social de SRPQ para administração RH do programa 'Frente de Trabalho'.\n\n\n # Tecnologias:\n- Javascript\n- SCSS\n- HTML\n- Electron\n- SQLite\n- NodeJS\n- React JS\n- Electron Forge\n- Bootstrap\n- Axios\n- React Toastify\n- Node\n- Express\n\n\n# Como entregar:\n## Instale todas as dependências usadas:\n\n npm install\n\n ## Primeiro faça a build do react usando o comando:\n\n npm run build\n\n- Acesse o index.html e edite o acesso aos arquivos:\nlink: `'/exemplo.js' >>>> './exemplo.js'`\nIsso deve ser feito em **TODOS**\n\n- Após gerar a build e organizar o *index.html* você pode iniciar o electron forge, para isso use:\n\n    npm run make\n\nO projeto deve sair em uma pasta no mesmo diretório chamada *'out'*\n\n## Requisitos\n\nO sistema roda no backend roda através do NodeJS, então é extremamente importante que ele esteja instalado para o pleno funcionamento do sistema.\n\n## Servidor\n\nO servidor Node funciona através de children process, veja:\n\n    app.on('ready', () => {\n    createWindow();\n   \n    childProcess.spawn('node', [`${__dirname}/server/server.js`], {\n    env: { ELECTRON_START:  'node-server' },\n    stdio:  'inherit',\n    });\n    \n    });\n    \nCom isso, fica claro que o servidor é iniciado assim que a aplicação é aberta, sendo exibido para o usuário o terminal do próprio Node. \n\n**ATENÇÃO**\n\nEsse terminal não pode ser encerrado ou acarretará na finalização do servidor\n\n## Banco de dados\n\nO banco de dados usado é em SQLite e é gerado automáticamente quando o usuário abrir o sistema pela primeira vez com o nome 'database', veja o caminho:\n\n> \\FT_Digital\\out\\ftdigital-win32-x64\\database.db\n\nPara manutenções o programa recomendado é o ***DB Browser for SQLite***\n\n## Login\n\nO login padrão para acesso é:\n\n*usuário: admin\nsenha: admin*\n\nPode e deve ser trocado posteriormente para o usuário\n```"
             
-            });
-        
-        Com isso, fica claro que o servidor é iniciado assim que a aplicação é aberta, sendo exibido para o usuário o terminal do próprio Node. 
-        
-        **ATENÇÃO**
-        
-        Esse terminal não pode ser encerrado ou acarretará na finalização do servidor
-        
-        ### Banco de dados
-        
-        O banco de dados usado é em SQLite e é gerado automáticamente quando o usuário abrir o sistema pela primeira vez com o nome "database", veja o caminho:
-        
-        > \\FT_Digital\\out\\ftdigital-win32-x64\\database.db
-        
-        Para manutenções o programa recomendado é o ***DB Browser for SQLite***
-        
-        ### Login
-        
-        O login padrão para acesso é:
-        
-        *usuário: admin
-        senha: admin*
-        
-        Pode e deve ser trocado posteriormente para o usuário
-        `
-    },
+        },
     {
         id: "2",
         titulo: "Cartão Azul",
