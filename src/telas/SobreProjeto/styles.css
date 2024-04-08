@@ -113,10 +113,6 @@
 }
 
 .box-sobre-projeto h2 {
-    font-size: 1.8rem;
-    margin: 15px 0;
-}
-.box-sobre-projeto h3 {
     font-size: 1.6rem;
     margin: 40px 0;
     padding-top: 10px;
@@ -132,7 +128,6 @@
     text-align: center;
     margin: 5px;
     padding: 10px;
-    border-bottom: 1px solid #FFFFFF;
 }
 .box-sobre-projeto ul {
     width: 90%;

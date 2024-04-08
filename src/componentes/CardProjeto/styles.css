@@ -5,6 +5,14 @@
   align-items: center;
   width: 365.71px;
   margin: 60px 15px;
+  box-shadow: 1px 0 11px 1px #00000071;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.5s;
+}
+.card-projeto:hover {
+  scale: 1.04;
+  box-shadow: 1px 0 20px 1px #00000071;
 }
 
 .banner-projeto {
