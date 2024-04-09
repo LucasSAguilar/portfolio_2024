@@ -1,0 +1,49 @@
+.container_linguagens_projeto {
+  border-bottom: 1px solid #FFFFFF;
+  padding: 5px;
+}
+
+.NodeJS {
+  border-color: #00ff62;
+  color: #00ff62;
+}
+.MySQL {
+  border-color: #ffc400;
+  color: #ffc400;
+}
+.ReactJS {
+  border-color: #04a4ee;
+  color: #04a4ee;
+}
+.SQLite {
+  border-color: #04a4ee;
+  color: #04a4ee;
+}
+.ReactNative {
+  border-color: #04a4ee;
+  color: #04a4ee;
+}
+.Javascript {
+  border-color: #eeff00;
+  color: #eeff00;
+}
+.HTML {
+  border-color: #ffa600;
+  color: #ffa600;
+}
+.CSS {
+  border-color: #04a4ee;
+  color: #04a4ee;
+}
+.SCSS {
+  border-color: #8f05aa;
+  color: #8f05aa;
+}
+.Bootstrap {
+  border-color: #8f05aa;
+  color: #8f05aa;
+}
+.Java {
+  border-color: #d13a3a;
+  color: #d13a3a;
+}

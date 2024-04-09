@@ -1,8 +1,8 @@
 import "./styles.css";
+import "./languages_projetos.css";
 import github_icon from "../../assets/icones/icon_github.svg";
 import youtube_icon from "../../assets/icones/icon_youtube.svg";
 import website_icon from "../../assets/icones/icon_website.svg";
-import capa from "../../assets/projetos/FT_digital/capa.webp";
 import { useNavigate } from "react-router-dom";
 
 interface projetoInterface {
@@ -14,6 +14,7 @@ interface projetoInterface {
   site: string;
   capa: string;
   markdown: string;
+  tecnologias: string[];
 }
 
 interface projetoProps {
@@ -35,6 +36,11 @@ const CardProjeto = ({ projeto }: projetoProps) => {
       <img alt="Banner 01" className="banner-projeto" src={projeto.capa} />
       <div className="escritos-card">
         <h3 className="titulo-projeto">{projeto.titulo}</h3>
+        <div className="box-tecnologias-projeto">
+          {projeto.tecnologias.map((tech) => {
+            return <p className={`container_linguagens_projeto ${tech}`}> {tech}</p>;
+          })}
+        </div>
         <p className="descricao-projeto">{projeto.descricao}</p>
         <div className="box-icons-projeto">
           <a href={projeto.codigo} target="_blank">
