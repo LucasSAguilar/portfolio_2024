@@ -101,7 +101,7 @@ const MenuNavegacao = ({
 
         <div className="box-btn-cv">
           <a
-            href="https://drive.google.com/file/d/12UPk9kBqh1wgXdyMKnr4aiMFRwiJxgnP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1u8eemPySodYVLxzxrAUTH7L-eja2NXFA/view?usp=sharing"
             target="_blank"
             className="btn-cv"
           >
