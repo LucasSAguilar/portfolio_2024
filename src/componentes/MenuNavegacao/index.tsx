@@ -60,7 +60,7 @@ const MenuNavegacao = ({
           </li>
           <li className="btn-cv-burguer">
             <a
-              href="https://drive.google.com/file/d/1u8eemPySodYVLxzxrAUTH7L-eja2NXFA/view?usp=sharing"
+              href="https://drive.google.com/file/d/151Hcv_5b2OoCFYfbe6vNtA57AxA3UaQD/view?usp=sharing"
               target="_blank"
             >
               Baixe meu CV
@@ -101,7 +101,7 @@ const MenuNavegacao = ({
 
         <div className="box-btn-cv">
           <a
-            href="https://drive.google.com/file/d/1u8eemPySodYVLxzxrAUTH7L-eja2NXFA/view?usp=sharing"
+            href="https://drive.google.com/file/d/151Hcv_5b2OoCFYfbe6vNtA57AxA3UaQD/view?usp=sharing"
             target="_blank"
             className="btn-cv"
           >
