@@ -135,12 +135,19 @@
     border: 1px solid #610F0F;
     width: 100%;
     text-align: center;
-    padding: 30px;
     cursor: pointer;
-    font-size: 1rem;
     color: #FF0000;
     position: absolute;
     bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cv-burguer .link-btn-cv-burguer {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
 }
 
 .btn-close {

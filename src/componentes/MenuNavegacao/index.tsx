@@ -20,13 +20,17 @@ const MenuNavegacao = ({
 
   return (
     <>
-      <div className={`glass-effect menu-hamburguer ${mostrarMenu ? "exibir-menu" : ""}`}>
+      <div
+        className={`glass-effect menu-hamburguer ${
+          mostrarMenu ? "exibir-menu" : ""
+        }`}
+      >
         <ul className="lista-burguer">
           <li
             className="botoes-menu-burguer btn-burguer-home"
             onClick={() => {
               onClickHome();
-              setMostrarMenu(false)
+              setMostrarMenu(false);
             }}
           >
             HOME
@@ -35,7 +39,7 @@ const MenuNavegacao = ({
             className="botoes-menu-burguer"
             onClick={() => {
               onClickProjetos();
-              setMostrarMenu(false)
+              setMostrarMenu(false);
             }}
           >
             PROJETOS
@@ -44,7 +48,7 @@ const MenuNavegacao = ({
             className="botoes-menu-burguer"
             onClick={() => {
               onClickSobre();
-              setMostrarMenu(false)
+              setMostrarMenu(false);
             }}
           >
             SOBRE MIM
@@ -53,13 +57,14 @@ const MenuNavegacao = ({
             className="botoes-menu-burguer"
             onClick={() => {
               onClickContato();
-              setMostrarMenu(false)
+              setMostrarMenu(false);
             }}
           >
             CONTATO
           </li>
           <li className="btn-cv-burguer">
             <a
+              className="link-btn-cv-burguer"
               href="https://drive.google.com/file/d/151Hcv_5b2OoCFYfbe6vNtA57AxA3UaQD/view?usp=sharing"
               target="_blank"
             >
@@ -73,9 +78,6 @@ const MenuNavegacao = ({
           mostrarMenu ? "escurecer-navbar" : null
         }`}
       >
-
-
-
         {
           // AQUI TROCA ------------------------------------------------
         }
