@@ -15,7 +15,7 @@ const Realizacoes = () => {
   return (
     <div className="box-realizacoes glass-effect efeito-scroll-review">
       <div className="box-valores">
-        <h3>+60</h3>
+        <h3>+70</h3>
         <p>Repositórios programados</p>
       </div>
       <div className="box-valores">
